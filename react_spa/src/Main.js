@@ -5,8 +5,6 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./Home";
-import Stuff from "./Stuff";
-import Contact from "./Contact";
 import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
 class Main extends Component {
@@ -36,8 +34,7 @@ class Main extends Component {
           </div>
           <div className="content">
             <Route exact to="/" component={Home}/>
-            <Route path="/stuff" component={Stuff}/>
-            <Route path="/contact" component={Contact}/>
+            <Route path="/stuff" component={Home}/>
           </div>
         </div>
       </HashRouter>
