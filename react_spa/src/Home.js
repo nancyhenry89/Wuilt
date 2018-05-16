@@ -5,6 +5,10 @@ import sec2 from './assets/images/sec2.svg'
 import sec3 from './assets/images/sec3.svg'
 import sec4 from './assets/images/sec4.svg'
 import sec5 from './assets/images/sec5.svg'
+import what1 from './assets/images/what1.png'
+import what2 from './assets/images/what2.png'
+import what3 from './assets/images/what3.png'
+import what4 from './assets/images/what4.png'
 
 class Home extends Component {
   render() {
@@ -25,44 +29,44 @@ class Home extends Component {
         <div className='what'>
           <div className="inner-cont">
             <div className="row">
-              <h2 className="section-title">What you get</h2>
+              <h2 className="section-title">WHAT YOU GET?</h2>
               <div className="desc">We have more than</div>
             </div>
             <div className="row">
               <div className="col">
                 <div className="head">
-                  <span className="icon"></span>
+                  <div className="icon"><img src={what1}/></div>
                 </div>
                 <div className="body">
-                  <div className="title">Unique designs</div>
-                  <div className="details">Create separate sections for different aspects of your business</div>
+                  <div className="title">Unique Designs</div>
+                  <div className="details">Create separate sections for different aspects of your business.</div>
                 </div>
               </div>
               <div className="col">
                 <div className="head">
-                  <span className="icon"></span>
+                  <div className="icon"><img src={what2}/></div>
                 </div>
                 <div className="body">
-                  <div className="title">Unique designs</div>
-                  <div className="details">Create separate sections for different aspects of your business</div>
+                  <div className="title">Analytics</div>
+                  <div className="details">Track how your website and marketing efforts are performing.</div>
                 </div>
               </div>
               <div className="col">
                 <div className="head">
-                  <span className="icon"></span>
+                  <div className="icon"><img src={what3}/></div>
                 </div>
                 <div className="body">
-                  <div className="title">Unique designs</div>
-                  <div className="details">Create separate sections for different aspects of your business</div>
+                  <div className="title">Integrations</div>
+                  <div className="details">Incorporate all the tools that you love into your website with ease.</div>
                 </div>
               </div>
               <div className="col">
                 <div className="head">
-                  <span className="icon"></span>
+                  <div className="icon"><img src={what4}/></div>
                 </div>
                 <div className="body">
-                  <div className="title">Unique designs</div>
-                  <div className="details">Create separate sections for different aspects of your business</div>
+                  <div className="title">Live Preview</div>
+                  <div className="details">View the desktop, tablet and mobile versions of your website before they go live.</div>
                 </div>
               </div>
             </div>
