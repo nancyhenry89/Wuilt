@@ -7,8 +7,7 @@
     "react-dom": "^16.3.2",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
-    "homepage" : "http://nancyhenry89.github.io/wuilt"
-
+    "homepage": "http://nancyhenry89.github.io/wuilt"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -16,5 +15,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "production": "webpack -p --progress"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
