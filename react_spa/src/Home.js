@@ -79,7 +79,7 @@ class Home extends Component {
             </div>
             <div className="details-cont">
               <div className="title">Pre-designed sections to play with</div>
-              <div className="desc">Any edits to your website are automatically sythesized on desktop, tablet and mobile devices.</div>
+              <div className="desc">Any edits to your website are automatically synthesized on desktop, tablet and mobile devices.</div>
             </div>
           </div>
         </div>

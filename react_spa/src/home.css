@@ -112,3 +112,59 @@ h2.section-title {
     font-size: 14px;
     letter-spacing: 1px;
 }
+
+
+.home-section.img-first {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.img-first .img-cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-first .details-cont {
+    float: right;
+    padding-top: 186px;
+    width: 39%;
+    line-height: 45px;
+}
+
+.home-section.img-last {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.img-last .img-cont {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-last .details-cont {
+    float: left;
+    padding-top: 186px;
+    width: 39%;
+    line-height: 45px;
+}
+
+
+.home-section .title {
+    font-size: 34px;
+    color: #1d232f;
+    letter-spacing: 2px;
+}
+
+.home-section .desc {
+    margin-top: 22px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #666666;
+    width: 75%;
+    line-height: 31px;
+}
