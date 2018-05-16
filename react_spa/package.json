@@ -13,10 +13,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+<<<<<<< HEAD
     "eject": "react-scripts eject",
     "production": "webpack -p --progress"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
+=======
+    "eject": "react-scripts eject"
+>>>>>>> parent of 48fce88... Build test
   }
 }
