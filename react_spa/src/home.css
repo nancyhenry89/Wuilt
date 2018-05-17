@@ -254,7 +254,7 @@ h2.section-title {
     background-size: cover;
     float: left;
     width: 100%;
-    padding-top: 190px;
+        padding-top: 190px;
     text-align: center;
     padding-bottom: 134px;
 }
@@ -277,5 +277,5 @@ h2.section-title {
 .closing button {
     color: #27a689;
     padding: 14px 27px;
-    box-shadow: 4px 2px 34px 7px #88888870;
+    box-shadow: 4px 2px 30px 7px rgba(136, 136, 136, 0.43)
 }

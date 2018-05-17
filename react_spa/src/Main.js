@@ -7,6 +7,7 @@ import {
 import Home from "./Home";
 import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
+import logoColor from './assets/images/logo-color.png'
 class Main extends Component {
   render() {
     return (
@@ -36,6 +37,23 @@ class Main extends Component {
             <Route exact to="/" component={Home}/>
             <Route path="/stuff" component={Home}/>
           </div>
+          <footer>
+            <div className="inner-cont">
+                <div className="logo">
+                  <img alrt="logo" src={logoColor} />
+                  <span className="logo-slogan">already built websites</span>
+                </div>
+                <ul className="footer-links">
+                  <li><NavLink exact to="/">Home</NavLink></li>
+                  <li><NavLink to="/stuff">Features</NavLink></li>
+                  <li><NavLink to="/contact">Pricing</NavLink></li>
+                  <li><NavLink to="/stuff">Blog</NavLink></li>
+                  <li><NavLink to="/contact">Help Center</NavLink></li>
+                  <li><NavLink to="/stuff">Privacy Policy</NavLink></li>
+                  <li><NavLink to="/stuff">Terms & Conditions</NavLink></li>
+                </ul>
+              </div>
+          </footer>
         </div>
       </HashRouter>
     );

@@ -140,7 +140,7 @@ class Home extends Component {
           <div className="desc">No Credit Card. No Commitment.</div>
             <button>Get Started Now!</button>
          </div>
-         <footer></footer>
+         
       </div>
     );
   }
