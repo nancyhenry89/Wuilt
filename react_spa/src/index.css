@@ -58,3 +58,38 @@ ul.footer-links li {
     right: -70px;
     color: #e1e1e1;
 }
+.is-sticky.active .header-cont {
+    background: #fff;
+}
+
+.is-sticky.active .header-cont a {
+    color: #909090;
+}
+
+
+.logo img:last-of-type {
+    display: none;
+}
+
+
+.active .logo img:first-of-type {
+    display: none;
+}
+
+.active .logo img:last-of-type {
+    display: block!important;
+}
+
+.is-sticky.active ul.header li a.active {
+    color: #1e2534;
+}
+
+.active .account {
+    color: #1e2534;
+}
+
+.active .header-cont button {
+    background: #61cbb2;
+    color: #fff;
+    border-color: #61cbb2;
+}
