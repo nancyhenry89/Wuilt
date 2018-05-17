@@ -3,10 +3,12 @@ import {Route,NavLink,HashRouter} from "react-router-dom";
 import 'react-sticky-header/styles.css';
 import StickyHeader from 'react-sticky-header';
 import Home from "./Home";
+import Pricing from "./Pricing";
 import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
 import logoColor from './assets/images/logo-color.png'
 import $ from 'jquery'
+import './index.css'
 class Main extends Component {
   componentDidMount() {
     $(window).on("scroll", function() {
@@ -24,9 +26,6 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-
-
-
         <StickyHeader
           // This is the sticky part of the header.
           header={
@@ -38,8 +37,8 @@ class Main extends Component {
               </h1>
               <ul className="header">
                 <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="/stuff">Features</NavLink></li>
-                <li><NavLink to="/contact">Pricing</NavLink></li>
+                <li><NavLink to="/features">Features</NavLink></li>
+                <li><NavLink to="/pricing">Pricing</NavLink></li>
               </ul>
               <div className="header-opo">
                 <div className="account">Aleardy Have an Account?</div>
@@ -55,14 +54,9 @@ class Main extends Component {
           backgroundColor="#fff"
         >
         </StickyHeader>
-
-
-
-
-
           <div className="content">
-            <Route exact to="/" component={Home}/>
-            <Route path="/stuff" component={Home}/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/pricing" component={Pricing}/>
           </div>
           <footer>
             <div className="inner-cont">
