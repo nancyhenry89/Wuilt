@@ -13,8 +13,11 @@ import strip1 from './assets/images/strip1.png'
 import strip2 from './assets/images/strip2.png'
 import strip3 from './assets/images/strip3.png'
 import strip4 from './assets/images/strip4.png'
-
+import $ from 'jquery'
 class Home extends Component {
+  componentDidMount() {
+  $('header').removeClass('pricing-header');
+ }
   render() {
     return (
       <div id="home">

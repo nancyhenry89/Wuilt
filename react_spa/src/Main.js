@@ -10,8 +10,10 @@ import logoColor from './assets/images/logo-color.png'
 import $ from 'jquery'
 import './index.css'
 class Main extends Component {
+
   componentDidMount() {
     $(window).on("scroll", function() {
+
       if($(window).scrollTop() > 50) {
           $(".is-sticky").addClass("active");
       } else {
