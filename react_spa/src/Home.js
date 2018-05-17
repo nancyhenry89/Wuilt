@@ -135,6 +135,12 @@ class Home extends Component {
                </div>
             </div>
          </div>
+         <div className="closing">
+          <h2 className="title">Build your website now! In only 3 Steps.</h2>
+          <div className="desc">No Credit Card. No Commitment.</div>
+            <button>Get Started Now!</button>
+         </div>
+         <footer></footer>
       </div>
     );
   }

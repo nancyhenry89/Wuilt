@@ -248,3 +248,34 @@ h2.section-title {
     bottom: 168px;
     width: 310px;
 }
+.closing {
+    background: url('./assets/images/closing.png');
+    color: #fff;
+    background-size: cover;
+    float: left;
+    width: 100%;
+    padding-top: 190px;
+    text-align: center;
+    padding-bottom: 134px;
+}
+.sec5.home-section.img-first {
+    padding-bottom: 157px;
+}
+
+
+.closing .title {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.closing .desc {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 53px;
+}
+
+.closing button {
+    color: #27a689;
+    padding: 14px 27px;
+    box-shadow: 4px 2px 34px 7px #88888870;
+}
