@@ -43,10 +43,10 @@ class Main extends Component {
               </ul>
               <div className="header-opo">
                 <div className="account">Aleardy Have an Account?</div>
-                <button>Build website now</button>
+                <a className="btn" href="#">Build website now</a>
                 <div className="lang-switcher">
                   <div className="flag"><img src={flag}/></div>
-                  <div className="popup"></div>
+                  <div className="popup">اللغة العربية</div>
                 </div>
               </div>
               </div>

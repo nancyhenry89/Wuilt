@@ -6,13 +6,13 @@ ul.header li a{color:#acc8e1;text-decoration:none}
 body{font-family:'Nunito',sans-serif;margin:0}
 ul.header li a.active{color:#fff}
 .content{width:100%;float:left;overflow:hidden}
-.header-cont{float:left;width:100%;position:fixed;background:transparent;padding-top:21px}
+.header-cont{float:left;width:100%;position:fixed;background:transparent;padding-top:21px;}
 .inner-cont{max-width:1154px;margin:auto;width:90%}
-button{width:auto;padding:14px 16px;font-size:20px;border-radius:50px}
+.btn{width:auto;padding: 15px 38px;font-size: 16px;border-radius:50px;text-decoration: none;}
 .header-opo{float:right;padding-top:22px}
 .account{float:left;text-align:center;color:#fff;font-size:13px;width:100px;padding-top:11px;line-height:21px}
-.header-cont button{padding:10px 23px;color:#61cbb2;font-size:13px;float:left;margin-left:50px}
-.lang-switcher{float:left;margin-left:21px}
+.header-cont .btn{padding:10px 23px;color:#61cbb2;font-size:13px;float:left;margin-left:50px;background: #fff;}
+.lang-switcher{float:left;margin-left:21px;position: relative;}
 .flag{width:35px;margin-top:1px}
 .flag img{width:100%}
 footer{float:left;width:100%;padding-top:27px}
@@ -22,10 +22,44 @@ ul.footer-links a{color:#252c39;text-decoration:none;letter-spacing:1px;font-siz
 ul.footer-links li{float:left;width:auto;padding:0 21px}
 .logo-slogan{width:100px;display:inline-block;font-size:8px;position:absolute;top:100%;right:-70px;color:#e1e1e1}
 .is-sticky.active .header-cont{background:#fff;box-shadow:7px 3px 13px #888}
-.is-sticky.active .header-cont a{color:#909090}
+.is-sticky.active .header-cont ul a{color:#909090}
 header .logo img:last-of-type{display:none}
 .active .logo img:first-of-type{display:none}
 .active .logo img:last-of-type{display:block!important}
 .is-sticky.active ul.header li a.active{color:#1e2534}
 .active .account{color:#1e2534}
-.active .header-cont button{background:#61cbb2;color:#fff;border-color:#61cbb2}
+.active .header-cont .btn{background:#61cbb2;color:#fff;border-color:#61cbb2}
+
+.lang-switcher .popup {
+	opacity: 0;
+	background: #ffffff;
+	width: 140px;
+	height: 50px;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 14px;
+	position: absolute;
+	top: 60px;
+	right: -53px;
+	transition: all .5s ease;
+}
+.lang-switcher .popup:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+
+.lang-switcher .popup:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #ffffff;
+	border-width: 12px;
+	margin-left: -10px;
+}
+
+.lang-switcher:hover .popup {opacity: 1;}

@@ -25,8 +25,8 @@ class Home extends Component {
                </div>
                <p>Create a Website in 3 steps</p>
                <div className="banner-actions">
-                  <button>Get Started!</button>
-                  <button>Watch a video demo</button>
+                  <a className="btn">Get Started!</a>
+                  <a className="btn">Watch a video</a>
                </div>
             </div>
          </div>
@@ -138,9 +138,9 @@ class Home extends Component {
          <div className="closing">
           <h2 className="title">Build your website now! In only 3 Steps.</h2>
           <div className="desc">No Credit Card. No Commitment.</div>
-            <button>Get Started Now!</button>
+            <a className="btn">Get Started Now!</a>
          </div>
-         
+
       </div>
     );
   }

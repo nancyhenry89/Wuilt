@@ -6,10 +6,29 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .what{background:#fafafa;float:left;padding-top:121px;padding-bottom:170px;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;position:relative}
 .slogan{width:450px;font-size:48px;font-weight:700;margin-top:186px;line-height:72px}
 .main-banner p{font-size:23px;margin-top:4px}
-.banner-actions{margin-top:54px}
-.banner-actions button:first-of-type{width:189px;margin-right:25px}
-.banner-actions button{border:1px solid #fff}
-.banner-actions button:last-of-type{background:transparent;color:#fff}
+.banner-actions{margin-top: 73px;}
+.banner-actions .btn:first-of-type{width:189px;margin-right:25px;color: #1e242f;background: #fff;/* padding: 14px 42px; */}
+.banner-actions .btn{border:1px solid #fff;text-transform: uppercase;position: relative;}
+.banner-actions .btn:last-of-type{background:transparent;color: #fff;}
+.banner-actions .btn:last-of-type:before {
+  border-color: transparent transparent transparent #ffffff;
+  content: " ";
+  position: absolute;
+  left: 20px;
+  border-width: 11px;
+  border-style: solid;
+  top: 50%;
+  margin-top: -8px;
+  border-top-width: 7px;
+  border-bottom-width: 7px;
+}
+.banner-actions .btn:first-of-type:after {
+    content: "\2192";
+    font-size: 25px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
 .what .icon img{width:100%}
 .what .desc{margin-bottom:90px;font-size:18px}
 .what .col:first-of-type{margin-left:0}
@@ -42,4 +61,4 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .sec5.home-section.img-first{padding-bottom:157px}
 .closing .title{font-size:34px;margin-bottom:15px}
 .closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:53px}
-.closing button{color:#27a689;padding:14px 27px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43)}
+.closing .btn{color:#27a689;padding:14px 27px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background: #fff}
