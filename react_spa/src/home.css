@@ -62,3 +62,39 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .closing .title{font-size:34px;margin-bottom:15px}
 .closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:53px}
 .closing .btn{color:#27a689;padding:14px 27px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background: #fff}
+@media screen and (max-width: 1024px){
+  .slogan {
+    max-width: 100%;
+    font-size: 21px;
+    text-align: center;
+}
+
+.banner-actions .btn {
+    float: left;
+    width: 80%!important;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.what .col {
+    width: 80%;
+    margin-left: 10%!important;
+    margin-right: 0;
+    margin-bottom: 50px;
+}
+
+.img-first .img-cont {
+    position: relative;
+    left: 0;
+    width: 90%;
+}
+
+.img-first .img-cont img {
+    width: 100%;
+}
+
+.img-first .details-cont {
+    width: 100%;
+    padding-top: 10px;
+}
+}

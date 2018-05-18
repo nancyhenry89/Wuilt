@@ -7,6 +7,7 @@ import Pricing from "./Pricing";
 import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
 import logoColor from './assets/images/logo-color.png'
+import W from './assets/images/w.png'
 import $ from 'jquery'
 import './index.css'
 class Main extends Component {
@@ -32,6 +33,9 @@ class Main extends Component {
           // This is the sticky part of the header.
           header={
             <div className="header-cont">
+            <div className="nav-head mobile">
+              <div className="w"><img src={W}/><div className="close-nav">x</div></div>
+            </div>
             <div className="inner-cont">
               <h1 className="logo">
                 <img alrt="logo" src={logo} />
@@ -43,7 +47,7 @@ class Main extends Component {
                 <li><NavLink to="/pricing">Pricing</NavLink></li>
               </ul>
               <div className="header-opo">
-                <div className="account">Aleardy Have an Account?</div>
+                <div className="account">Login</div>
                 <a className="btn" href="#">Build website now</a>
                 <div className="lang-switcher">
                   <div className="flag"><img src={flag}/></div>
