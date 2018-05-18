@@ -43,7 +43,7 @@ class Main extends Component {
               </h1>
               <ul className="header">
                 <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="/features">Features</NavLink></li>
+                <li><NavLink to="#">Features</NavLink></li>
                 <li><NavLink to="/pricing">Pricing</NavLink></li>
               </ul>
               <div className="header-opo">
@@ -72,12 +72,12 @@ class Main extends Component {
                 </div>
                 <ul className="footer-links">
                   <li><NavLink exact to="/">Home</NavLink></li>
-                  <li><NavLink to="/stuff">Features</NavLink></li>
-                  <li><NavLink to="/contact">Pricing</NavLink></li>
-                  <li><NavLink to="/stuff">Blog</NavLink></li>
-                  <li><NavLink to="/contact">Help Center</NavLink></li>
-                  <li><NavLink to="/stuff">Privacy Policy</NavLink></li>
-                  <li><NavLink to="/stuff">Terms & Conditions</NavLink></li>
+                  <li><NavLink to="#">Features</NavLink></li>
+                  <li><NavLink to="/pricing">Pricing</NavLink></li>
+                  <li><NavLink to="#">Blog</NavLink></li>
+                  <li><NavLink to="#">Help Center</NavLink></li>
+                  <li><NavLink to="#">Privacy Policy</NavLink></li>
+                  <li><NavLink to="#">Terms & Conditions</NavLink></li>
                 </ul>
               </div>
           </footer>
