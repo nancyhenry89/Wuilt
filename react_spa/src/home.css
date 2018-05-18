@@ -1,4 +1,4 @@
-.main-banner{background:url(./assets/images/banner.png);color:#fff;padding-top:100px;min-height:754px;background-size:cover}
+.main-banner{background:url(./assets/images/banner.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover}
 h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6px}
 .what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px}
 .desc{text-align:center}
@@ -57,11 +57,11 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .sec2 .img-cont{top:180px}
 .sec3 .strip{width:420px;bottom:43px}
 .sec4 .strip{bottom:168px;width:310px}
-.closing{background:url(./assets/images/closing.png);color:#fff;background-size:cover;float:left;width:100%;padding-top:190px;text-align:center;padding-bottom:134px}
+.closing{background:url(./assets/images/closing.png);color:#fff;background-size:cover;float:left;width:100%;padding-top:190px;text-align:center;padding-bottom:150px}
 .sec5.home-section.img-first{padding-bottom:157px}
 .closing .title{font-size:34px;margin-bottom:15px}
-.closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:53px}
-.closing .btn{color:#27a689;padding:14px 27px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background: #fff}
+.closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:73px}
+.closing .btn{color:#27a689;padding: 20px 39px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background: #fff}
 @media screen and (max-width: 1024px){
   .slogan {
     max-width: 100%;

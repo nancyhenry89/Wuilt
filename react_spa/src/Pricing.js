@@ -9,6 +9,7 @@ import p5 from './assets/images/p5.png'
 import p6 from './assets/images/p6.png'
 import p7 from './assets/images/p7.png'
 import {Tabs, Tab} from 'react-bootstrap-tabs';
+import { Accordion, AccordionItem } from 'react-sanfona';
 
 class Pricing extends Component {
 
@@ -121,6 +122,40 @@ class Pricing extends Component {
               </div>
             </div>
           </div>
+        </div>
+        <div className="faq">
+        <div className="inner-cont">
+          <h2 className="section-title">Some Questions You Might Have</h2>
+          <div className="questions">
+          <Accordion>
+                  <AccordionItem title="What's a Premium Plan?" expanded={true}>
+                    <div className="answer">
+                    Wix gives you everything you need to create a stunning website for free, including top-grade hosting. You can choose to get even more benefits and features by upgrading to one of our Premium plans.
+                    </div>
+                  </AccordionItem>
+                  <AccordionItem title="What are the benefits of a Premium plan?" >
+                    <div className="answer">
+                    "answer example"
+                    </div>
+                  </AccordionItem>
+                  <AccordionItem title="What are the benefits of purchasing a Yearly Savings Plan?" >
+                    <div className="answer">
+                    "answer example"
+                    </div>
+                  </AccordionItem>
+                  <AccordionItem title="Is web hosting included with my Built website?" >
+                    <div className="answer">
+                    "answer example"
+                    </div>
+                  </AccordionItem>
+                  <AccordionItem title="What does “connect your own domain“ mean?" >
+                    <div className="answer">
+                    "What does “connect your own domain“ mean?"
+                    </div>
+                  </AccordionItem>
+            </Accordion>
+          </div>
+        </div>
         </div>
   </div>
 
