@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import "./pricing.css";
 import $ from 'jquery'
+import p1 from './assets/images/p1.png'
+import p2 from './assets/images/p2.png'
+import p3 from './assets/images/p3.png'
+import p4 from './assets/images/p4.png'
+import p5 from './assets/images/p5.png'
+import p6 from './assets/images/p6.png'
+import p7 from './assets/images/p7.png'
 import {Tabs, Tab} from 'react-bootstrap-tabs';
 
 class Pricing extends Component {
@@ -79,7 +86,44 @@ class Pricing extends Component {
              <Tab label="MONTHLY">MONTHLY</Tab>
          </Tabs>
         </div>
+        <div className="grey-cont"></div>
+        <div className="bundles">
+          <div className="inner-cont">
+            <h2 className="section-title">All Premium Plans Always Include</h2>
+            <div className="bundles-cont">
+              <div className="item">
+                <div className="img-cont"><img src={p1}/></div>
+                <div className="title">Section Designs</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p2}/></div>
+                <div className="title">ShutterStock Images</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p3}/></div>
+                <div className="title">Unlimited Bandwidth</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p4}/></div>
+                <div className="title">upto 100 GB Storage</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p5}/></div>
+                <div className="title">Free Domain</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p6}/></div>
+                <div className="title">24/7 Chat Support</div>
+              </div>
+              <div className="item">
+                <div className="img-cont"><img src={p7}/></div>
+                <div className="title">Unlimited Pages</div>
+              </div>
+            </div>
+          </div>
+        </div>
   </div>
+
     );
   }
 }
