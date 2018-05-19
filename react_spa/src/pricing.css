@@ -49,110 +49,30 @@ div#pricing{min-height:1300px}
 .react-sanfona-item{margin-bottom:29px;float:left;border-radius:10px;width:100%}
 .react-sanfona-item-expanded .react-sanfona-item-title{background:#f6f6f6}
 .react-sanfona-item-expanded .react-sanfona-item-title:after{content:"_";font-size:20px;float:right;margin-top:-10px}
-.subscription.prof ul li:before {
-    background: -webkit-gradient(linear,left top,right top,color-stop(10%,rgba(43,208,177,1)),color-stop(110%,rgba(1,150,164,1)));
-    background: -webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
-    background: -o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
-    background: linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
-}
-
+.subscription.prof ul li:before{background:-webkit-gradient(linear,left top,right top,color-stop(10%,rgba(43,208,177,1)),color-stop(110%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%)}
 @media screen and (max-width: 1024px) {
-.sub-types{width: 90%}
+.sub-types{width:90%}
 }
 @media screen and (max-width: 768px) {
-  .subscription:first-of-type .head, .subscription:last-of-type .head {
-      background: #fff;
-  }
-
-  .subscription:first-of-type .head:after, .subscription:last-of-type .head:after {
-      background: #fff;
-      border-bottom: 5px solid #fafafa;
-  }
-
-  #pricing .main-section {
-      max-height: 428px;
-  }
-
-.subscription {
-    width: 100%;
-    flex-shrink: 0;
-    max-width: 400px;
-    margin: 20px auto!important;
-}
-
-.sub-types {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
-
-.subscription.prof {
-    order: -1;
-}
-
-.main-section .title {
-    font-size: 24px;
-}
-
-#pricing .main-section {
-    padding-top: 80px;
-}
-
-.main-section .desc {
-    font-size: 16px;
-}
-
-.nav-tabs {
-    margin-top: 50px;
-}
-
-.grey-cont {
-    height: 1590px;
-}
-
-.grey-cont:after {
-    display: none;
-}
-
-.bundles {
-    padding-top: 20px;
-}
-
-.bundles-cont .item {
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.bundles-cont .item:last-of-type {
-    width: 100%;
-}
-
-.bundles:after {
-    border-radius: 0 0 50% 50% / 0 0 45px 45px;
-}
-
-.faq .section-title {
-    width: 100%;
-    padding: 0;
-    text-align: center;
-    line-height: 40px;
-}
-
-.questions {
-    width: 100%;
-}
-
-.react-sanfona-item-title {
-    padding: 20px;
-}
-
-.faq .answer {
-    padding: 20px;
-}
-
-.faq {
-    padding-top: 90px;
-    padding-bottom: 30px;
-}
+.subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
+.subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
+#pricing .main-section{max-height:428px}
+.subscription{width:100%;flex-shrink:0;max-width:400px;margin:20px auto!important}
+.sub-types{display:flex;flex-direction:column;width:90%}
+.subscription.prof{order:-1}
+.main-section .title{font-size:24px}
+#pricing .main-section{padding-top:80px}
+.main-section .desc{font-size:16px}
+.nav-tabs{margin-top:50px}
+.grey-cont{height:1590px}
+.grey-cont:after{display:none}
+.bundles{padding-top:20px}
+.bundles-cont .item{width:50%;margin-top:10px;margin-bottom:10px}
+.bundles-cont .item:last-of-type{width:100%}
+.bundles:after{border-radius:0 0 50% 50% / 0 0 45px 45px}
+.faq .section-title{width:100%;padding:0;text-align:center;line-height:40px}
+.questions{width:100%}
+.react-sanfona-item-title{padding:20px}
+.faq .answer{padding:20px}
+.faq{padding-top:90px;padding-bottom:30px}
 }

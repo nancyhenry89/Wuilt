@@ -35,7 +35,7 @@ header .logo img:last-of-type{display:none}
 .lang-switcher:hover .popup{opacity:1}
 .mobile{display:none}
 @media screen and (max-width: 1024px) {
-.inner-cont{width: 80%}
+.inner-cont{width:80%}
 }
 @media screen and (max-width: 768px) {
 .mobile{display:block}
@@ -49,67 +49,17 @@ ul.header li{width:100%;height:40px}
 .flag{display:none}
 .lang-switcher .popup{display:block;position:unset;color:#fff;opacity:1;background:transparent;text-align:left;padding-top:0}
 .lang-switcher .popup:before{display:none}
-.burger {
-    width: 60px;
-    float: right;
-    padding-right: 20px;
-}
-
-.burger img {
-    width: 100%;
-}
-
-
-.logo {
-    width: 80px;
-    margin-top: 0px;
-}
-.w {
-	width: 70px;
-padding-left: 40px;
-    float: left;
-
-}
-
-.w img {
-    width: 100%;
-}
-
-.close-nav {
-    float: right;
-		color: #fff;
-padding-right: 30px;
-font-size: 29px;
-line-height: 22px;
-font-family: sans-serif;
-font-weight: lighter;
-}
-
-.nav-head {
-	display: none;
-    width: 100%;
-    float: left;
-    height: 30px;
-		background: #474e59;
-		height: 66px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-.header,.header-opo{
-	display: none
-}
-header.nav-opened .header-cont, header.nav-opened .header-cont, header.nav-opened.is-sticky.active .header-cont{width:100%;float:left;height:600px;background:url(./assets/images/mobileNavBg.png);background-size:cover;background-position:0}
-header.nav-opened .header,header.nav-opened .header-opo,header.nav-opened .nav-head{
-	display: block;
-}
-header.nav-opened .burger,header.nav-opened .logo{
-	display: none
-}
-.nav-opened .header-cont {
-    padding-top: 0;
-}
-.is-sticky.active .header-cont {
-    background: #1e2534;
-}
+.burger{width:60px;float:right;padding-right:20px}
+.burger img{width:100%}
+.logo{width:80px;margin-top:0}
+.w{width:70px;padding-left:40px;float:left}
+.w img{width:100%}
+.close-nav{float:right;color:#fff;padding-right:30px;font-size:29px;line-height:22px;font-family:sans-serif;font-weight:lighter}
+.nav-head{display:none;width:100%;float:left;height:30px;background:#474e59;height:66px;padding-top:20px;padding-bottom:20px}
+.header,.header-opo{display:none}
+header.nav-opened .header-cont,header.nav-opened .header-cont,header.nav-opened.is-sticky.active .header-cont{width:100%;float:left;height:600px;background:url(./assets/images/mobileNavBg.png);background-size:cover;background-position:0}
+header.nav-opened .header,header.nav-opened .header-opo,header.nav-opened .nav-head{display:block}
+header.nav-opened .burger,header.nav-opened .logo{display:none}
+.nav-opened .header-cont{padding-top:0}
+.is-sticky.active .header-cont{background:#1e2534}
 }

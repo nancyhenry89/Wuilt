@@ -17,7 +17,7 @@ import $ from 'jquery'
 class Home extends Component {
   componentDidMount() {
   $('header').removeClass('pricing-header');
-        $('header').removeClass('nav-opened');
+  $('header').removeClass('nav-opened');
  }
   render() {
     return (
