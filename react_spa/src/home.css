@@ -48,7 +48,7 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
   .home-section .img-cont img{width:100%;}
 @media screen and (max-width: 768px) {
   .main-banner{background:url(./assets/images/mob-banner.png);background-size: contain;min-height: 737px}
-  .slogan{max-width:100%;font-size: 30px;text-align:center;width: 90%;line-height: 40px;margin: auto;margin-top: 10px;}
+  .slogan{max-width:100%;font-size: 30px;text-align:center;line-height: 40px;margin: auto;margin-top: 10px;}
   .banner-actions .btn{float:left;margin-bottom:20px;text-align:center;width: 100%!important;/* position: relative; *//* left: 50%; *//* margin-right: 0!important; *//* margin: auto; *//* display: block; *//* margin-left: -100px; */}
   .what .col{width:70%;margin-left:15%!important;margin-right:0;margin-bottom:50px}
   .img-first .img-cont{/* position:relative; *//* left:0; *//* width:90%; */}

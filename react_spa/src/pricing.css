@@ -28,7 +28,7 @@
 .subscription .btn{height:50px;width:150px;border:1px solid #61cbb2;border-radius:5px;color:#61cbb2;padding:14px 28px;font-size:14px}
 .subscription.prof .btn{color:#fff;background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(43,208,177,1)),color-stop(100%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:linear-gradient(69deg,rgba(43,208,177,1) -2%,rgba(1,150,164,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1)}
 .subscription ul:after{content:"";height:1px;width:calc(80% + 25px);background:#ebebeb;display:block;bottom:0;position:absolute;left:calc(10% - 12px)}
-#pricing .main-section:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#1d2533;height:75px;display:block;position:absolute;bottom:-75px;z-index:-1}
+#pricing .main-section:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#1d2533;height:75px;display:block;position:absolute;bottom:-72px;z-index:-1}
 div#pricing{min-height:1300px}
 .grey-cont{background:#fafafa;width:100%;height:390px;float:left;margin-top:-34px;position:relative}
 .grey-cont:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#fafafa;height:75px;display:block;position:absolute;bottom:-75px}
@@ -54,4 +54,105 @@ div#pricing{min-height:1300px}
     background: -webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
     background: -o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
     background: linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);
+}
+
+@media screen and (max-width: 1024px) {
+.sub-types{width: 90%}
+}
+@media screen and (max-width: 768px) {
+  .subscription:first-of-type .head, .subscription:last-of-type .head {
+      background: #fff;
+  }
+
+  .subscription:first-of-type .head:after, .subscription:last-of-type .head:after {
+      background: #fff;
+      border-bottom: 5px solid #fafafa;
+  }
+
+  #pricing .main-section {
+      max-height: 428px;
+  }
+
+.subscription {
+    width: 100%;
+    flex-shrink: 0;
+    max-width: 400px;
+    margin: 20px auto!important;
+}
+
+.sub-types {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.subscription.prof {
+    order: -1;
+}
+
+.main-section .title {
+    font-size: 24px;
+}
+
+#pricing .main-section {
+    padding-top: 80px;
+}
+
+.main-section .desc {
+    font-size: 16px;
+}
+
+.nav-tabs {
+    margin-top: 50px;
+}
+
+.grey-cont {
+    height: 1590px;
+}
+
+.grey-cont:after {
+    display: none;
+}
+
+.bundles {
+    padding-top: 20px;
+}
+
+.bundles-cont .item {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bundles-cont .item:last-of-type {
+    width: 100%;
+}
+
+.bundles:after {
+    border-radius: 0 0 50% 50% / 0 0 45px 45px;
+}
+
+.faq .section-title {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    line-height: 40px;
+}
+
+.questions {
+    width: 100%;
+}
+
+.react-sanfona-item-title {
+    padding: 20px;
+}
+
+.faq .answer {
+    padding: 20px;
+}
+
+.faq {
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
 }

@@ -15,6 +15,7 @@ class Pricing extends Component {
 
   componentDidMount() {
   $('header').addClass('pricing-header');
+        $('header').removeClass('nav-opened');
  }
 
   render() {

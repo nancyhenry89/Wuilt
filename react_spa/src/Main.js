@@ -14,6 +14,7 @@ import './index.css'
 class Main extends Component {
 
   componentDidMount() {
+
     $(window).on("scroll", function() {
 
       if($(window).scrollTop() > 50) {
