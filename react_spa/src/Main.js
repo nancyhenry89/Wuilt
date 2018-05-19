@@ -8,6 +8,7 @@ import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
 import logoColor from './assets/images/logo-color.png'
 import W from './assets/images/w.png'
+import burger from './assets/images/burger.png'
 import $ from 'jquery'
 import './index.css'
 class Main extends Component {
@@ -22,6 +23,12 @@ class Main extends Component {
          $(".is-sticky").removeClass("active");
       }
   })
+  $('.burger').click(function(){
+    $('header').addClass('nav-opened');
+  });
+  $('.close-nav').click(function(){
+    $('header').removeClass('nav-opened');
+  });
 }
 
 
@@ -33,8 +40,12 @@ class Main extends Component {
           // This is the sticky part of the header.
           header={
             <div className="header-cont">
+            <div className="burger mobile">
+              <img src={burger}/>
+            </div>
             <div className="nav-head mobile">
-              <div className="w"><img src={W}/><div className="close-nav">x</div></div>
+              <div className="w"><img src={W}/></div>
+              <div className="close-nav">x</div>
             </div>
             <div className="inner-cont">
               <h1 className="logo">
