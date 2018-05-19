@@ -22,12 +22,12 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .home-section.img-first{position:relative;float:left;width:100%;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%}
 .home-section.img-first:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#fff;height:75px;display:block;position:absolute;bottom:-75px;z-index:9}
 .home-section{padding-top:68px;padding-bottom:202px}
-.img-first .img-cont{position:absolute;top:64px;left:8%}
+.img-first .img-cont{position:absolute;top:64px;left:8%;max-width: 50%}
 .img-first .details-cont{float:right;padding-top:186px;width:39%;line-height:45px}
 .sec3.img-first .details-cont{padding-top:140px}
 .sec4.img-last .details-cont{padding-top:185px}
 .home-section.img-last{position:relative;float:left;background:#fafafa;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;padding-bottom:260px}
-.img-last .img-cont{position:absolute;top:110px;right:8%}
+.img-last .img-cont{position:absolute;top:110px;right:8%;max-width: 50%}
 .img-last .details-cont{float:left;padding-top:252px;width:39%;line-height:45px}
 .home-section .title{font-size:34px;color:#1d232f;letter-spacing:2px}
 .home-section .desc{margin-top:22px;text-align:left;font-size:14px;letter-spacing:1px;color:#666;width:75%;line-height:31px}
@@ -45,13 +45,14 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .closing .title{font-size:34px;margin-bottom:15px}
 .closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:73px}
 .closing .btn{color:#27a689;padding:20px 39px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background:#fff}
-@media screen and (max-width: 1024px) {
+  .home-section .img-cont img{width:100%;}
+@media screen and (max-width: 768px) {
   .main-banner{background:url(./assets/images/mob-banner.png);background-size: contain;min-height: 737px}
   .slogan{max-width:100%;font-size: 30px;text-align:center;width: 90%;line-height: 40px;margin: auto;margin-top: 10px;}
   .banner-actions .btn{float:left;margin-bottom:20px;text-align:center;width: 100%!important;/* position: relative; *//* left: 50%; *//* margin-right: 0!important; *//* margin: auto; *//* display: block; *//* margin-left: -100px; */}
   .what .col{width:70%;margin-left:15%!important;margin-right:0;margin-bottom:50px}
   .img-first .img-cont{/* position:relative; *//* left:0; *//* width:90%; */}
-  .home-section .img-cont img{width:100%;}
+
   .img-first .details-cont{/* width:100%; *//* padding-top:10px; */}
   .main-banner p{font-size:17px;text-align:center;margin-bottom: 30px;}
   .banner-actions{margin:auto;width: 220px;}
@@ -94,6 +95,7 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
       right: auto;
       top: auto;
       bottom: 0px;
+      max-width: 440px;
   }
 
   .home-section .inner-cont .details-cont {
@@ -145,7 +147,7 @@ footer .logo {
 }
 
 ul.footer-links li {
-    width: 100%;
+    width: 100%!important;
     text-align: center;
     margin: 10px 0;
 }

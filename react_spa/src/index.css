@@ -35,6 +35,9 @@ header .logo img:last-of-type{display:none}
 .lang-switcher:hover .popup{opacity:1}
 .mobile{display:none}
 @media screen and (max-width: 1024px) {
+.inner-cont{width: 80%}
+}
+@media screen and (max-width: 768px) {
 .mobile{display:block}
 .is-sticky.active ul.header li a.active{color:#fff}
 ul.header{padding-left:0;margin-bottom:0}
@@ -96,7 +99,7 @@ font-weight: lighter;
 .header,.header-opo{
 	display: none
 }
-header.nav-opened .header-cont,header.nav-opened .header-cont,.is-sticky.active .header-cont{width:100%;float:left;height:600px;background:url(./assets/images/mobileNavBg.png);background-size:cover;background-position:0}
+header.nav-opened .header-cont, header.nav-opened .header-cont, header.nav-opened.is-sticky.active .header-cont{width:100%;float:left;height:600px;background:url(./assets/images/mobileNavBg.png);background-size:cover;background-position:0}
 header.nav-opened .header,header.nav-opened .header-opo,header.nav-opened .nav-head{
 	display: block;
 }
@@ -105,5 +108,8 @@ header.nav-opened .burger,header.nav-opened .logo{
 }
 .nav-opened .header-cont {
     padding-top: 0;
+}
+.is-sticky.active .header-cont {
+    background: #1e2534;
 }
 }
