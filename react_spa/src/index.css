@@ -24,9 +24,9 @@ ul.footer-links li{float:left;width:auto;padding:0 21px}
 .logo-slogan{width:100px;display:inline-block;font-size:8px;position:absolute;top:100%;right:-70px;color:#e1e1e1}
 .is-sticky.active .header-cont{background:#fff;box-shadow:7px 3px 13px #888}
 .is-sticky.active .header-cont ul a{color:#909090}
-header .logo img:last-of-type{display:none}
-.active .logo img:first-of-type{display:none}
-.active .logo img:last-of-type{display:block!important}
+header .logo a:last-of-type img{display:none}
+.active .logo a:first-of-type img{display:none}
+.active .logo a:last-of-type img{display:block!important}
 .is-sticky.active ul.header li a.active{color:#1e2534}
 .active .account{color:#1e2534}
 .active .header-cont .btn{background:#61cbb2;color:#fff;border-color:#61cbb2}

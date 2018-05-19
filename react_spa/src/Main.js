@@ -45,13 +45,13 @@ class Main extends Component {
               <img src={burger}/>
             </div>
             <div className="nav-head mobile">
-              <div className="w"><img src={W}/></div>
+              <div className="w"><NavLink exact to="/"><img src={W}/></NavLink></div>
               <div className="close-nav">x</div>
             </div>
             <div className="inner-cont">
               <h1 className="logo">
-                <img alrt="logo" src={logo} />
-                <img alrt="logo" src={logoColor} />
+                <NavLink exact to="/"><img alrt="logo" src={logo} /></NavLink>
+                <NavLink exact to="/"><img alrt="logo" src={logoColor} /></NavLink>
               </h1>
               <ul className="header">
                 <li><NavLink exact to="/">Home</NavLink></li>
@@ -79,7 +79,7 @@ class Main extends Component {
           <footer>
             <div className="inner-cont">
                 <div className="logo">
-                  <img alrt="logo" src={logoColor} />
+                  <NavLink exact to="/"><img alrt="logo" src={logoColor} /></NavLink>
                   <span className="logo-slogan">already built websites</span>
                 </div>
                 <ul className="footer-links">
