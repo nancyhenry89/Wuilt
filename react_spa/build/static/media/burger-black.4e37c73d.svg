@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="14px" viewBox="0 0 26 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Mobile---Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.879999995">
+        <g id="Layout-Copy-20" transform="translate(-334.000000, -17.000000)" fill="#202C39" fill-rule="nonzero">
+            <g id="bars" transform="translate(334.000000, 17.000000)">
+                <g id="Group-2">
+                    <path d="M0.812481005,2 L25.187519,2 C25.6360382,2 26,1.55195345 26,1 C26,0.447963425 25.6359707,0 25.187519,0 L0.812481005,0 C0.363961774,0 0,0.44804655 0,1 C0,1.55195345 0.364029311,2 0.812481005,2 Z" id="Shape"></path>
+                    <path d="M25.187519,6 L0.812481005,6 C0.363961774,6 0,6.44804655 0,7 C0,7.55195345 0.364029311,8 0.812481005,8 L25.187519,8 C25.6360382,8 26,7.55195345 26,7 C26,6.44804655 25.6360382,6 25.187519,8 Z" id="Shape"></path>
+                    <path d="M25.1818367,12 L8.81816327,12 C8.36650722,12 8,12.4480466 8,13 C8,13.5520366 8.36657523,14 8.81816327,14 L25.1818367,14 C25.6334928,14 26,13.5519534 26,13 C26.000068,12.4479634 25.6334928,12 25.1818367,14 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
