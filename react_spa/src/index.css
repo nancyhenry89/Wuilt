@@ -3,7 +3,7 @@
 .logo{width:73px;float:left}
 .header{float:left;width:310px;list-style:none;margin-top:30px;padding-left:19px}
 ul.header li{float:left;margin:0 18px}
-ul.header li a{color:#fff;text-decoration:none}
+ul.header li a{color:#d0d0d0;text-decoration:none}
 body{font-family:'Nunito',sans-serif;margin:0}
 ul.header li a.active{color:#fff;font-weight:700}
 .content{width:100%;float:left;overflow:hidden}
@@ -12,7 +12,7 @@ ul.header li a.active{color:#fff;font-weight:700}
 .btn{width:auto;padding:15px 38px;font-size:16px;border-radius:50px;text-decoration:none}
 .header-opo{float:right;padding-top:22px}
 .account{float:left;text-align:center;color:#fff;font-size:13px;width:100px;padding-top:7px;line-height:21px}
-.header-cont .btn{padding:10px 23px;color:#61cbb2;font-size:13px;float:left;margin-left:50px;background:#fff}
+.header-cont .btn{padding:10px 23px;color:#61cbb2;font-size:13px;float:left;margin-left:0;background:#fff}
 .lang-switcher{float:left;margin-left:21px;position:relative}
 .flag{width:35px;margin-top:1px}
 .flag img{width:100%}
@@ -22,7 +22,7 @@ ul.footer-links{float:right;list-style:none;padding:0;margin-top:13px}
 ul.footer-links a{color:#252c39;text-decoration:none;letter-spacing:1px;font-size:13px}
 ul.footer-links li{float:left;width:auto;padding:0 21px}
 .logo-slogan{width:100px;display:inline-block;font-size:8px;position:absolute;top:100%;right:-70px;color:#e1e1e1}
-.is-sticky.active .header-cont{background:#fff;box-shadow:7px 3px 13px #888}
+.is-sticky.active .header-cont{background:#fff;box-shadow:7px 3px 11px #d8d8d8}
 .is-sticky.active .header-cont ul a{color:#909090}
 header .logo a:last-of-type img{display:none}
 .active .logo a:first-of-type img{display:none}
@@ -34,9 +34,6 @@ header .logo a:last-of-type img{display:none}
 .lang-switcher .popup:before{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(194,225,245,0);border-bottom-color:#fff;border-width:12px;margin-left:-10px}
 .lang-switcher:hover .popup{opacity:1}
 .mobile{display:none}
-@media screen and (max-width: 1024px) {
-.inner-cont{width:80%}
-}
 @media screen and (max-width: 768px) {
 .mobile{display:block}
 .is-sticky.active ul.header li a.active{color:#fff}
@@ -49,9 +46,9 @@ ul.header li{width:100%;height:40px}
 .flag{display:none}
 .lang-switcher .popup{display:block;position:unset;color:#fff;opacity:1;background:transparent;text-align:left;padding-top:0}
 .lang-switcher .popup:before{display:none}
-.burger{width:60px;float:right;padding-right:20px}
+.burger{width:50px;float:right;padding-right:20px}
 .burger img{width:100%}
-.logo{width:80px;margin-top:0}
+.logo{width:70px;margin-top:0}
 .w{width:70px;padding-left:40px;float:left}
 .w img{width:100%}
 .close-nav{float:right;color:#fff;padding-right:30px;font-size:29px;line-height:22px;font-family:sans-serif;font-weight:lighter}
@@ -61,5 +58,6 @@ header.nav-opened .header-cont,header.nav-opened .header-cont,header.nav-opened.
 header.nav-opened .header,header.nav-opened .header-opo,header.nav-opened .nav-head{display:block}
 header.nav-opened .burger,header.nav-opened .logo{display:none}
 .nav-opened .header-cont{padding-top:0}
-.is-sticky.active .header-cont{background:#1e2534}
+.burger img:last-of-type,.is-sticky.active .header-cont .burger img:first-of-type{display:none}
+.is-sticky.active .header-cont .burger img:last-of-type{display:block;margin-top:5px}
 }

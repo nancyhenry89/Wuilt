@@ -9,6 +9,7 @@ import flag from './assets/images/arabic-flag.png'
 import logoColor from './assets/images/logo-color.png'
 import W from './assets/images/w.png'
 import burger from './assets/images/burger.png'
+import burgerBlack from './assets/images/burger-black.svg'
 import $ from 'jquery'
 import './index.css'
 class Main extends Component {
@@ -42,7 +43,9 @@ class Main extends Component {
           header={
             <div className="header-cont">
             <div className="burger mobile">
+
               <img src={burger}/>
+              <img src={burgerBlack}/>
             </div>
             <div className="nav-head mobile">
               <div className="w"><NavLink exact to="/"><img src={W}/></NavLink></div>

@@ -1,4 +1,4 @@
-.main-banner{background:url(./assets/images/banner.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover}
+.main-banner{background:url(./assets/images/pattern.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover}
 h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6px}
 .what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px}
 .desc{text-align:center}
@@ -7,11 +7,11 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .slogan{width:450px;font-size:48px;font-weight:700;margin-top:186px;line-height:72px}
 .main-banner p{font-size:23px;margin-top:4px}
 .banner-actions{margin-top:73px}
-.banner-actions .btn:first-of-type{width:189px;margin-right:25px;color:#1e242f;background:#fff}
+.banner-actions .btn:first-of-type{width:189px;margin-right:25px;color:#1e242f;background:#fff;padding-right:63px}
 .banner-actions .btn{border:1px solid #fff;text-transform:uppercase;position:relative}
-.banner-actions .btn:last-of-type{background:transparent;color:#fff}
-.banner-actions .btn:last-of-type:before{border-color:transparent transparent transparent #fff;content:" ";position:absolute;left:20px;border-width:11px;border-style:solid;top:50%;margin-top:-8px;border-top-width:7px;border-bottom-width:7px}
-.banner-actions .btn:first-of-type:after{content:"\2192";font-size:25px;position:absolute;top:9px;right:10px}
+.banner-actions .btn:last-of-type{background:transparent;color:#fff;padding-left:60px}
+.banner-actions .btn:last-of-type:before{border-color:transparent transparent transparent #fff;content:" ";position:absolute;left:43px;border-width:11px;border-style:solid;top:50%;margin-top:-8px;border-top-width:7px;border-bottom-width:7px}
+.banner-actions .btn:first-of-type:after{content:"\2192";font-size:25px;position:absolute;top:9px;right:36px}
 .what .icon img{width:100%}
 .what .desc{margin-bottom:90px;font-size:18px}
 .what .col:first-of-type{margin-left:0}
@@ -46,13 +46,22 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .closing .desc{font-size:16px;letter-spacing:1px;margin-bottom:73px}
 .closing .btn{color:#27a689;padding:20px 39px;box-shadow:4px 2px 30px 7px rgba(136,136,136,0.43);background:#fff}
 .home-section .img-cont img{width:100%}
+.banner-img{position:absolute;max-width:800px;top:110px;right:71px}
+.banner-img img{width:100%}
+@media screen and (max-width: 1024px) {
+.inner-cont{width:80%}
+.banner-img{max-width:391px;top:276px}
+}
 @media screen and (max-width: 768px) {
-.main-banner{background:url(./assets/images/mob-banner.png);background-size:contain;min-height:737px}
+.banner-img{top:440px;right:50%;margin-right:-150px;max-width:300px}
+.banner-actions .btn:first-of-type:after{right:56px}
+.banner-actions .btn:last-of-type:before{left:57px}
+.main-banner{min-height:737px}
 .slogan{max-width:100%;font-size:30px;text-align:center;line-height:40px;margin:auto;margin-top:10px}
 .banner-actions .btn{float:left;margin-bottom:20px;text-align:center;width:100%!important}
 .what .col{width:70%;margin-left:15%!important;margin-right:0;margin-bottom:50px}
 .main-banner p{font-size:17px;text-align:center;margin-bottom:30px}
-.banner-actions{margin:auto;width:220px}
+.banner-actions{margin:auto;width:260px}
 h2.section-title{font-size:24px}
 .what{padding-top:30px;padding-bottom:40px;border-radius:0 0 50% 50% / 0 0 45px 45px}
 .what .desc{margin-bottom:40px;font-size:16px;color:#9B9B9B}

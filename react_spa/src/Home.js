@@ -13,6 +13,7 @@ import strip1 from './assets/images/strip1.png'
 import strip2 from './assets/images/strip2.png'
 import strip3 from './assets/images/strip3.png'
 import strip4 from './assets/images/strip4.png'
+import computer from './assets/images/computer.png'
 import $ from 'jquery'
 class Home extends Component {
   componentDidMount() {
@@ -24,6 +25,7 @@ class Home extends Component {
       <div id="home">
          <div className="main-banner">
             <div className="inner-cont">
+            <div className="banner-data">
                <div className="slogan">
                   Watch Your Website Build Itself
                </div>
@@ -32,6 +34,8 @@ class Home extends Component {
                   <a className="btn">Get Started!</a>
                   <a className="btn">Watch a video</a>
                </div>
+               </div>
+               <div className="banner-img"><img src={computer}/></div>
             </div>
          </div>
          <div className='what'>
