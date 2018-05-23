@@ -12,6 +12,8 @@ import burger from './assets/images/burger.png'
 import burgerBlack from './assets/images/burger-black.svg'
 import $ from 'jquery'
 import './index.css'
+import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
+
 class Main extends Component {
 
   componentDidMount() {
@@ -38,6 +40,12 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
+        <h1 className="App-title">
+    <FormattedMessage id="app.title"
+                      defaultMessage="Welcome to {what}"
+                      description="Welcome header on app main page"
+                      values={{ what: 'react-intl' }}/>
+</h1>
         <StickyHeader
           // This is the sticky part of the header.
           header={
