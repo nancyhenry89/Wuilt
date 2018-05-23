@@ -14,8 +14,12 @@ const messages = {
     'ar': messages_ar,
     'en': messages_en
 };
-
-const language =localStorage.getItem('lang');
+if(localStorage.getItem('lang')==null){
+  debugger;
+  var language="en";
+}else{
+  var language =localStorage.getItem('lang');
+}
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages[language]}>
   <Main/>
