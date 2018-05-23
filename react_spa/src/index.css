@@ -34,6 +34,13 @@ header .logo a:last-of-type img{display:none}
 .lang-switcher .popup:before{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(194,225,245,0);border-bottom-color:#fff;border-width:12px;margin-left:-10px}
 .lang-switcher:hover .popup{opacity:1}
 .mobile{display:none}
+.arabic body{direction:rtl}
+.arabic .logo,.arabic .header,.arabic ul.header li,.arabic .content,.arabic .header-cont,.arabic .account,.arabic .lang-switcher,.arabic footer,.arabic ul.footer-links li{float: right;}
+.arabic .header{padding-right:19px;padding-left:auto}
+.arabic .header-cont .btn{margin-right: 0;margin-left: auto;float: right}
+.arabic .lang-switcher .popup:before{margin-right:10px;margin-left:auto }
+.arabic .header-opo,.arabic ul.footer-links,arabic .logo-slogan,.arabic .lang-switcher .popup{float:left}
+.arabic .lang-switcher{margin-right: 21px;margin-left: auto}
 @media screen and (max-width: 768px) {
 .mobile{display:block}
 .is-sticky.active ul.header li a.active{color:#fff}

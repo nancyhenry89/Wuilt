@@ -1,4 +1,7 @@
 {
-  "app.title": "Willkommen bei react-intl",
-  "app.intro": "Zum Loslegen editiere <code>src/App.js</code>."
+	"app.features": "المميزات",
+	"app.home": "الرئيسية",
+	"app.login": "الدخول",
+	"app.pricing": "الاسعار",
+  "app.build_website_now!": "انشيئ موقعك الآن!"
 }

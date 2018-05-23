@@ -1,4 +1,7 @@
 {
-  "app.title": "خطط اسعار مناسبة لك",
-  "app.intro": "To get started, edit <code>src/App.js</code> and save to reload."
+	"app.features": "Features",
+	"app.home": "Home",
+	"app.login": "Login",
+	"app.pricing": "Pricing",
+  "app.build_website_now!": "Build website now!"
 }

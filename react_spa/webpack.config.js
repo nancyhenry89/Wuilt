@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i, 
-        loader: "file-loader?name=src/assets/images/[name].[ext]"
+        loader: "file-loader?name=assets/images/[name].[ext]"
     },
     {
       // Preprocess our own .css files
@@ -35,7 +35,7 @@ module.exports = {
   },
   output: {
     path: __dirname + '/dist',
-    publicPath: '/',
+    publicPath: './',
     filename: 'bundle.js'
   },
   plugins: [

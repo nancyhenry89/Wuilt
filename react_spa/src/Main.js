@@ -19,9 +19,11 @@ class Main extends Component {
   componentDidMount() {
     const language =localStorage.getItem('lang');
     if(language=="ar"){
-      $('.lang-switcher').attr('value','en')
+      $('.lang-switcher').attr('value','en');
+      $('html').attr('lang','ar').addClass('arabic');
     }else if(language=="en"){
-      $('.lang-switcher').attr('value','ar')
+      $('.lang-switcher').attr('value','ar');
+      $('html').attr('lang','en').removeClass('arabic');
     }
     $(window).on("scroll", function() {
 
@@ -49,12 +51,6 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-        <h1 className="App-title">
-    <FormattedMessage id="app.title"
-                      defaultMessage="Welcome to {what}"
-                      description="Welcome header on app main page"
-                      values={{ what: 'react-intl' }}/>
-    </h1>
         <StickyHeader
           // This is the sticky part of the header.
           header={
@@ -74,13 +70,15 @@ class Main extends Component {
                 <NavLink exact to="/"><img alrt="logo" src={logoColor} /></NavLink>
               </h1>
               <ul className="header">
-                <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="#">Features</NavLink></li>
-                <li><NavLink to="/pricing">Pricing</NavLink></li>
+                <li><NavLink exact to="/"> 
+                <FormattedMessage id="app.home"/>
+                </NavLink></li>
+                <li><NavLink to="#"><FormattedMessage id="app.features"/></NavLink></li>
+                <li><NavLink to="/pricing"><FormattedMessage id="app.pricing"/></NavLink></li>
               </ul>
               <div className="header-opo">
-                <div className="account">Login</div>
-                <a className="btn" href="#">Build website now</a>
+                <div className="account"><FormattedMessage id="app.login"/></div>
+                <a className="btn" href="#"><FormattedMessage id="app.build_website_now!"/></a>
                 <div  value="ar" className="lang-switcher">
                   <div className="flag"><img src={flag}/></div>
                   <div className="popup">اللغة العربية</div>
