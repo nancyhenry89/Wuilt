@@ -5,17 +5,17 @@ import "./index.css";
 import {IntlProvider} from "react-intl";
 import { addLocaleData } from "react-intl";
 import locale_en from 'react-intl/locale-data/en';
-import locale_de from 'react-intl/locale-data/de';
+import locale_ar from 'react-intl/locale-data/ar';
 
-import messages_de from "./translations/de.json";
+import messages_ar from "./translations/ar.json";
 import messages_en from "./translations/en.json";
-addLocaleData([...locale_en, ...locale_de]);
+addLocaleData([...locale_en, ...locale_ar]);
 const messages = {
-    'de': messages_de,
+    'ar': messages_ar,
     'en': messages_en
 };
 
-const language = navigator.language.split(/[-_]/)[0];  // language without region code
+const language =localStorage.getItem('lang');
 ReactDOM.render(
   <IntlProvider locale={language} messages={messages[language]}>
   <Main/>

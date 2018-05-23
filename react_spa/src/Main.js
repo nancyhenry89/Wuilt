@@ -17,7 +17,12 @@ import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
 class Main extends Component {
 
   componentDidMount() {
-
+    const language =localStorage.getItem('lang');
+    if(language=="ar"){
+      $('.lang-switcher').attr('value','en')
+    }else if(language=="en"){
+      $('.lang-switcher').attr('value','ar')
+    }
     $(window).on("scroll", function() {
 
       if($(window).scrollTop() > 50) {
@@ -33,6 +38,10 @@ class Main extends Component {
   $('.close-nav').click(function(){
     $('header').removeClass('nav-opened');
   });
+  $('.lang-switcher').click(function(){
+    localStorage.setItem("lang",$(this).attr('value'));
+    location.reload();
+  });
 }
 
 
@@ -45,7 +54,7 @@ class Main extends Component {
                       defaultMessage="Welcome to {what}"
                       description="Welcome header on app main page"
                       values={{ what: 'react-intl' }}/>
-</h1>
+    </h1>
         <StickyHeader
           // This is the sticky part of the header.
           header={
@@ -72,7 +81,7 @@ class Main extends Component {
               <div className="header-opo">
                 <div className="account">Login</div>
                 <a className="btn" href="#">Build website now</a>
-                <div className="lang-switcher">
+                <div  value="ar" className="lang-switcher">
                   <div className="flag"><img src={flag}/></div>
                   <div className="popup">اللغة العربية</div>
                 </div>
