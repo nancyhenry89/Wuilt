@@ -76,7 +76,23 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";}
-
+    .arabic .img-cont {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+    
+    .arabic .strip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
 @media screen and (max-width: 1024px) {
 .inner-cont{width:80%}
 .banner-img{max-width:391px;top:276px}
@@ -107,7 +123,7 @@ h2.section-title{font-size:24px}
 .closing{padding-top:90px;padding-bottom:90px}
 .closing .title{font-size:24px;width:90%;margin:auto;margin-bottom:15px}
 .closing .desc{font-size:14px}
-footer .logo{margin:auto;float:none}
+footer .logo{margin:auto;float:none!important}
 ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
 
 

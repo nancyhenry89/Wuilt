@@ -58,7 +58,7 @@ header .logo a:last-of-type img{display:none}
     border-radius: 50%;
     border: 2px solid #fff;
 }
-.arabic .lang-switcher .popup{right: auto;left: -54px;}
+.arabic .lang-switcher .popup{float: right;}
 @media screen and (max-width: 768px) {
 .mobile{display:block}
 .is-sticky.active ul.header li a.active{color:#fff}
@@ -68,7 +68,7 @@ ul.header li{width:100%;height:40px}
 .header-cont .btn{display:none}
 .lang-switcher{width:100%}
 .header-opo{width:100%;padding-top:0}
-.flag{display:none}
+.flag{display:none!important}
 .lang-switcher .popup{display:block;position:unset;color:#fff;opacity:1;background:transparent;text-align:left;padding-top:0}
 .lang-switcher .popup:before{display:none}
 .burger{width:50px;float:right;padding-right:20px}
@@ -99,6 +99,6 @@ header.nav-opened .burger,header.nav-opened .logo{display:none}
 
 
 
-.arabic .burger{float:left;padding-left:20px;padding-right:auto}
+.arabic .burger{float:left;padding-left:20px;padding-right:0}
 .arabic .close-nav{float:left;padding-left:30px;padding-right: auto}
 }
