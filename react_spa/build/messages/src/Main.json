@@ -1,7 +1,0 @@
-[
-  {
-    "id": "app.title",
-    "description": "Welcome header on app main page",
-    "defaultMessage": "Welcome to {what}"
-  }
-]

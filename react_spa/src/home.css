@@ -48,13 +48,10 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .home-section .img-cont img{width:100%}
 .banner-img{position:absolute;max-width:800px;top:110px;right:71px}
 .banner-img img{width:100%}
-
-
-
-.arabic .what .col,.arabic .what .col{float: right;}
+.arabic .what .col,.arabic .what .col{float:right}
 .arabic .what{float:right;right:-10%;left:auto}
 .arabic .banner-actions .btn:last-of-type{padding-left:auto;padding-right:60px}
-.arabic .what .col:first-of-type{margin-right:0;margin-left: auto}
+.arabic .what .col:first-of-type{margin-right:0;margin-left:auto}
 .arabic .home-section.img-first{float:right;right:-10%;left:auto}
 .arabic .home-section.img-first:after{right:-10%;left:auto}
 .arabic .img-first .img-cont{right:8%;left:auto}
@@ -63,36 +60,15 @@ h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6p
 .arabic .home-section .desc{text-align:right}
 .arabic .img-last .strip{right:8%;left:auto}
 .arabic .closing{float:right}
-
-.arabic .banner-actions .btn:first-of-type{margin-left:25px;margin-right:auto;padding-left:63px;padding-right: auto}
-.arabic .banner-actions .btn:first-of-type:after{left:36px;right:auto ;   transform: rotate(-180deg);}
-.arabic .what .col:last-of-type{margin-left:0;margin-right: auto}
+.arabic .banner-actions .btn:first-of-type{margin-left:25px;margin-right:auto;padding-left:63px;padding-right:auto}
+.arabic .banner-actions .btn:first-of-type:after{left:36px;right:auto;transform:rotate(-180deg)}
+.arabic .what .col:last-of-type{margin-left:0;margin-right:auto}
 .arabic .img-first .details-cont{float:left}
 .arabic .img-last .img-cont{left:8%;right:auto}
 .arabic .strip{left:8%;right:auto}
-.arabic .banner-img{left:71px;right:auto;-moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";}
-    .arabic .img-cont {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-    }
-    
-    .arabic .strip {
-        -moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
-    }
+.arabic .banner-img{left:71px;right:auto;-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH}
+.arabic .img-cont{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH}
+.arabic .strip{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH}
 @media screen and (max-width: 1024px) {
 .inner-cont{width:80%}
 .banner-img{max-width:391px;top:276px}
@@ -125,9 +101,6 @@ h2.section-title{font-size:24px}
 .closing .desc{font-size:14px}
 footer .logo{margin:auto;float:none!important}
 ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
-
-
-
 .arabic .banner-actions .btn:last-of-type:before{right:57px;left:auto}
 .arabic .banner-actions .btn{float:right}
 .arabic .what .col{margin-right:15%!important;margin-left:auto!important}
@@ -135,7 +108,6 @@ ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
 .arabic .home-section .inner-cont .img-cont{right:0;left:auto}
 .arabic .home-section .inner-cont .details-cont{right:15%;left:auto}
 .arabic .home-section.img-last .img-cont{left:0;right:auto}
-
-.arabic .banner-img{left:50%;right:auto;margin-left:-150px;margin-right: auto}
+.arabic .banner-img{left:50%;right:auto;margin-left:-150px;margin-right:auto}
 .arabic .banner-actions .btn:first-of-type:after{left:56px;right:auto}
 }
