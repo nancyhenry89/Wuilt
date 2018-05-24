@@ -78,8 +78,9 @@ class Main extends Component {
                 <li><NavLink to="/pricing"><FormattedMessage id="app.pricing"/></NavLink></li>
               </ul>
               <div className="header-opo">
-                <div className="account"><FormattedMessage id="app.login"/></div>
+                
                 <a className="btn" href="#"><FormattedMessage id="app.build_website_now!"/></a>
+                <div className="account"><span className="btn"><FormattedMessage id="app.login"/></span></div>
                 <div  value="ar" className="lang-switcher">
                   <div className="flag english-flag"><img src={flag}/></div>
                   <div className="flag arabic-flag"><img src={flagEN}/></div>

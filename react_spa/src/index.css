@@ -11,7 +11,13 @@ ul.header li a.active{color:#fff;font-weight:700}
 .inner-cont{max-width:1154px;margin:auto;width:90%}
 .btn{width:auto;padding:15px 38px;font-size:16px;border-radius:50px;text-decoration:none}
 .header-opo{float:right;padding-top:22px}
-.account{float:left;text-align:center;color:#fff;font-size:13px;width:100px;padding-top:7px;line-height:21px}
+.account{float:left;text-align:center;color:#fff;font-size:13px;width:100px;line-height:21px;margin-right:30px;margin-left: 30px}
+.header-cont .account .btn {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 130px;
+    padding: 6px 23px;
+}
 .header-cont .btn{padding:10px 23px;color:#61cbb2;font-size:13px;float:left;margin-left:0;background:#fff}
 .lang-switcher{float:left;margin-left:21px;position:relative}
 .flag{width:35px;margin-top:1px}

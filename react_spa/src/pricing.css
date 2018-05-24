@@ -110,7 +110,7 @@ div#pricing{min-height:1300px}
 .bundles-cont .item{width:50%;margin-top:10px;margin-bottom:10px}
 .bundles-cont .item:last-of-type{width:100%}
 .bundles:after{border-radius:0 0 50% 50% / 0 0 45px 45px}
-.faq .section-title{width:100%;padding:0;text-align:center;line-height:40px}
+.faq .section-title{width:100%;padding:0!important;text-align:center!important;line-height:40px}
 .questions{width:100%}
 .react-sanfona-item-title{padding:20px}
 .faq .answer{padding:20px}
