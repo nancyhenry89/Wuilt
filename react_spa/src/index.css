@@ -38,9 +38,27 @@ header .logo a:last-of-type img{display:none}
 .arabic .logo,.arabic .header,.arabic ul.header li,.arabic .content,.arabic .header-cont,.arabic .account,.arabic .lang-switcher,.arabic footer,.arabic ul.footer-links li{float: right;}
 .arabic .header{padding-right:19px;padding-left:auto}
 .arabic .header-cont .btn{margin-right: 0;margin-left: auto;float: right}
-.arabic .lang-switcher .popup:before{margin-right:10px;margin-left:auto }
 .arabic .header-opo,.arabic ul.footer-links,arabic .logo-slogan,.arabic .lang-switcher .popup{float:left}
 .arabic .lang-switcher{margin-right: 21px;margin-left: auto}
+.arabic-flag,.arabic .english-flag{display:none};
+.english-flag ,.arabic .arabic-flag{display: block}
+.arabic .arabic-flag {
+    display: block;
+}
+
+.arabic-flag {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.arabic-flag img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.arabic .lang-switcher .popup{right: auto;left: -54px;}
 @media screen and (max-width: 768px) {
 .mobile{display:block}
 .is-sticky.active ul.header li a.active{color:#fff}
@@ -67,4 +85,20 @@ header.nav-opened .burger,header.nav-opened .logo{display:none}
 .nav-opened .header-cont{padding-top:0}
 .burger img:last-of-type,.is-sticky.active .header-cont .burger img:first-of-type{display:none}
 .is-sticky.active .header-cont .burger img:last-of-type{display:block;margin-top:5px}
+
+
+
+.arabic ul.header{padding-left:auto;padding-right:0}
+.arabic .lang-switcher .popup{text-align: right}
+.arabic .w{padding-left:auto;padding-right: 40px;float:right}
+.arabic .nav-head{float:right}
+.arabic header.nav-opened .header-cont,.arabic header.nav-opened .header-cont,.arabic header.nav-opened.is-sticky.active .header-cont{float:right}
+
+
+
+
+
+
+.arabic .burger{float:left;padding-left:20px;padding-right:auto}
+.arabic .close-nav{float:left;padding-left:30px;padding-right: auto}
 }

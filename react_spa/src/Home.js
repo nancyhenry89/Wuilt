@@ -14,6 +14,8 @@ import strip2 from './assets/images/strip2.png'
 import strip3 from './assets/images/strip3.png'
 import strip4 from './assets/images/strip4.png'
 import computer from './assets/images/computer.png'
+import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
+
 import $ from 'jquery'
 class Home extends Component {
   componentDidMount() {
@@ -27,12 +29,12 @@ class Home extends Component {
             <div className="inner-cont">
             <div className="banner-data">
                <div className="slogan">
-                  Watch Your Website Build Itself
+               <FormattedMessage id="app.slogan"/>
                </div>
-               <p>Create a Website in 3 steps</p>
+               <p><FormattedMessage id="app.threestep"/></p>
                <div className="banner-actions">
-                  <a className="btn">Get Started!</a>
-                  <a className="btn">Watch a video</a>
+                  <a className="btn"><FormattedMessage id="app.startNow"/></a>
+                  <a className="btn"><FormattedMessage id="app.watch"/></a>
                </div>
                </div>
                <div className="banner-img"><img src={computer}/></div>

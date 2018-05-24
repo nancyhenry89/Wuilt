@@ -1,7 +1,12 @@
 {
+	"app.build_website_now!": "Build website now!",
 	"app.features": "Features",
 	"app.home": "Home",
+	"app.lang": "اللغة العربية",
 	"app.login": "Login",
 	"app.pricing": "Pricing",
-  "app.build_website_now!": "Build website now!"
+	"app.slogan": "Watch Your Website Build Itself",
+	"app.startNow": "Get Started!",
+	"app.threestep": "Create a website in 3 steps",
+	"app.watch": "Watch a Demo"
 }

@@ -6,6 +6,7 @@ import Home from "./Home";
 import Pricing from "./Pricing";
 import logo from './assets/images/logo.png';
 import flag from './assets/images/arabic-flag.png'
+import flagEN from './assets/images/flag-en.png'
 import logoColor from './assets/images/logo-color.png'
 import W from './assets/images/w.png'
 import burger from './assets/images/burger.png'
@@ -80,8 +81,9 @@ class Main extends Component {
                 <div className="account"><FormattedMessage id="app.login"/></div>
                 <a className="btn" href="#"><FormattedMessage id="app.build_website_now!"/></a>
                 <div  value="ar" className="lang-switcher">
-                  <div className="flag"><img src={flag}/></div>
-                  <div className="popup">اللغة العربية</div>
+                  <div className="flag english-flag"><img src={flag}/></div>
+                  <div className="flag arabic-flag"><img src={flagEN}/></div>
+                  <div className="popup"><FormattedMessage id="app.lang"/></div>
                 </div>
               </div>
               </div>
@@ -101,9 +103,9 @@ class Main extends Component {
                   <span className="logo-slogan">already built websites</span>
                 </div>
                 <ul className="footer-links">
-                  <li><NavLink exact to="/">Home</NavLink></li>
-                  <li><NavLink to="#">Features</NavLink></li>
-                  <li><NavLink to="/pricing">Pricing</NavLink></li>
+                  <li><NavLink exact to="/"><FormattedMessage id="app.home"/></NavLink></li>
+                  <li><NavLink to="#"><FormattedMessage id="app.features"/></NavLink></li>
+                  <li><NavLink to="/pricing"><FormattedMessage id="app.pricing"/></NavLink></li>
                   <li><NavLink to="#">Blog</NavLink></li>
                   <li><NavLink to="#">Help Center</NavLink></li>
                   <li><NavLink to="#">Privacy Policy</NavLink></li>
