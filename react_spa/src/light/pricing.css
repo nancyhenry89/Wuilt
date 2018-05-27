@@ -1,0 +1,106 @@
+#pricing .main-section{background:url(./assets/images/pricing-banner.png);background-size:cover;float:left;width:100%;color:#fff;text-align:center;padding-top:135px;position:relative;margin-bottom:75px;max-height:730px;z-index:9}
+.pricing-header .header-cont .btn{background:transparent;border:1px solid #fff;color:#fff}
+.main-section .title{font-size:49px;margin-bottom:14px;font-weight:400}
+.main-section .desc{font-size:21px;letter-spacing:1px}
+.nav-tabs li a{float:left;width:50%;background:#fff;color:#65ccb4;height:40px;line-height:40px;font-size:14px}
+.nav-tabs{list-style:none;width:260px;margin:auto;margin-top:102px;padding-left:0}
+.nav-tabs li a.active{background:#3c434f;color:#fff}
+.nav-tabs li:first-of-type a{border-top-left-radius:50px;border-bottom-left-radius:50px}
+.nav-tabs li:last-of-type a{border-top-right-radius:50px;border-bottom-right-radius:50px}
+.tab-content{width:100%;float:left;margin-top:29px}
+.subscription{width:calc(100% / 3 - 20px);float:left;background:#fff;margin:20px 10px;border-radius:10px;overflow:hidden;color:#1C2533;padding-bottom:50px}
+.sub-types{width:75%;margin:auto}
+.subscription .head:after{content:'';border-radius:0 0 50% 50% / 0 0 18px 18px;width:110%;left:-5%;background:#fafafa;height:35px;display:block;position:absolute;bottom:-35px;z-index:9}
+.subscription.prof .head{background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(43,208,177,1)),color-stop(100%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:linear-gradient(69deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1);color:#fff}
+.subscription.prof .head:after{background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-webkit-gradient(linear,left top,right top,color-stop(10%,rgba(43,208,177,1)),color-stop(110%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1)}
+.subscription .head{background:#fafafa;position:relative;padding-top:35px}
+.subscription .title{font-size:20px}
+.subscription .price{font-size:49px;margin-bottom:2px}
+.subscription .per{font-size:14px}
+.subscription ul{list-style:none;float:left;padding-left:49px;position:relative;padding-bottom:40px;margin-bottom:-24px}
+.subscription ul li:before{content:"L";font-family:arial;-ms-transform:scaleX(-1) rotate(-35deg);-webkit-transform:scaleX(-1) rotate(-35deg);transform:scaleX(-1) rotate(-35deg);display:inline-block;width:20px;height:20px;background:#1d2533;color:#fff;border-radius:50%;font-size:13px;text-align:center;line-height:20px;position:absolute;left:0;top:3px}
+.subscription ul li{float:left;text-align:left;font-size:14px;padding-left:41px;position:relative;margin-bottom:13px;padding-right:40px;line-height:25px}
+.subscription .details{padding-top:75px;float:left;width:100%;padding-bottom:24px;margin-bottom:66px}
+.subscription .button{float:left;width:100%}
+.subscription:first-of-type{margin-left:0}
+.subscription:last-of-type{margin-right:0}
+.subscription:first-of-type,.subscription:last-of-type{margin-top:57px}
+.subscription .btn{height:50px;width:150px;border:1px solid #61cbb2;border-radius:5px;color:#61cbb2;padding:14px 28px;font-size:14px}
+.subscription.prof .btn{color:#fff;background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(43,208,177,1)),color-stop(100%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:linear-gradient(69deg,rgba(43,208,177,1) -2%,rgba(1,150,164,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1)}
+.subscription ul:after{content:"";height:1px;width:calc(80% + 25px);background:#ebebeb;display:block;bottom:0;position:absolute;left:calc(10% - 12px)}
+#pricing .main-section:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#1d2533;height:75px;display:block;position:absolute;bottom:-72px;z-index:-1}
+div#pricing{min-height:1300px}
+.grey-cont{background:#fafafa;width:100%;height:390px;float:left;margin-top:-34px;position:relative}
+.grey-cont:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#fafafa;height:75px;display:block;position:absolute;bottom:-75px}
+.bundles{float:left;width:100%;padding-top:160px;position:relative;padding-bottom:40px}
+.bundles-cont .item{float:left;width:calc(100% / 7)}
+.bundles .img-cont{width:90px;margin:auto;margin-bottom:0}
+.bundles .img-cont img{width:100%}
+.bundles-cont{margin-top:54px}
+.bundles .title{width:80%;margin:auto;text-align:center;line-height:33px;font-size:18px;color:#1C2533}
+.faq{float:left;width:100%;background:#fafafa;padding-top:143px;padding-bottom:70px}
+.faq .section-title{width:50%;float:left;padding-right:120px;text-align:left;line-height:59px}
+.questions{width:50%;float:left;margin-top:30px}
+.react-sanfona-item-title{font-size:13px;font-weight:400;color:#1C2533;background:#efefef;padding:19px 50px;border-radius:10px;padding-right:20px}
+.react-sanfona-item-title:after{content:"+";font-size:20px;float:right;margin-top:-7px}
+.faq .answer{font-size:13px;background:#fff;padding:33px 50px;line-height:26px;letter-spacing:1px;font-weight:lighter;float:left;width:100%;border-bottom-right-radius:10px;border-bottom-left-radius:10px}
+.bundles:after{content:'';border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;background:#fff;height:75px;display:block;position:absolute;bottom:-75px}
+.react-sanfona-item.react-sanfona-item-expanded{box-shadow:0 1px 7px 3px #efefef}
+.react-sanfona-item{margin-bottom:29px;float:left;border-radius:10px;width:100%}
+.react-sanfona-item-expanded .react-sanfona-item-title{background:#f6f6f6}
+.react-sanfona-item-expanded .react-sanfona-item-title:after{content:"_";font-size:20px;float:right;margin-top:-10px}
+.subscription.prof ul li:before{background:-webkit-gradient(linear,left top,right top,color-stop(10%,rgba(43,208,177,1)),color-stop(110%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%)}
+.arabic #pricing .main-section{float:right}
+.arabic .nav-tabs li a{float:right}
+.arabic .nav-tabs{padding-right:0;padding-left:auto}
+.arabic .nav-tabs li:first-of-type a{border-top-left-radius:0;border-bottom-left-radius:0;border-top-right-radius:50px;border-bottom-right-radius:50px}
+.arabic .tab-content{float:right}
+.arabic .subscription{float:right}
+.arabic .subscription .head:after{right:-5%;left:auto}
+.arabic .subscription ul{float:right;padding-right:49px;padding-left:auto}
+.arabic .subscription ul li{float:right;text-align:right;padding-right:41px;padding-left:40px}
+.arabic .subscription .details{float:right}
+.arabic .subscription .button{float:right}
+.arabic .subscription:first-of-type{margin-right:0;margin-left:autp}
+.arabic .subscription ul li:before{right:0;left:auto}
+.arabic .subscription ul:after{right:calc(10% - 12px);left:auto}
+.arabic #pricing .main-section:after{right:-10%;left:auto}
+.arabic .grey-cont{float:right}
+.arabic .grey-cont:after{right:-10%;left:auto}
+.arabic .bundles{float:right}
+.arabic .bundles-cont .item{float:right}
+.arabic .faq{float:right}
+.arabic .faq .section-title{float:right;padding-left:120px;text-align:right;padding-right:auto}
+.arabic .questions{float:right}
+.arabic .faq .answer{float:right;border-bottom-right-radius:10px;border-bottom-left-radius:10px}
+.arabic .react-sanfona-item{float:right}
+.arabic .subscription:last-of-type{margin-left:0;margin-right:auto}
+.arabic .nav-tabs li:last-of-type a{border-top-right-radius:0;border-bottom-right-radius:0;border-top-left-radius:50px;border-bottom-left-radius:50px}
+.arabic .react-sanfona-item-title{padding-left:20px;padding-right:auto}
+.arabic .react-sanfona-item-title:after,.arabic .react-sanfona-item-expanded .react-sanfona-item-title:after{float:left}
+@media screen and (max-width: 1024px) {
+.sub-types{width:90%}
+}
+@media screen and (max-width: 768px) {
+.subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
+.subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
+#pricing .main-section{max-height:428px}
+.subscription{width:100%;flex-shrink:0;max-width:400px;margin:20px auto!important}
+.sub-types{display:flex;flex-direction:column;width:90%}
+.subscription.prof{order:-1}
+.main-section .title{font-size:24px}
+#pricing .main-section{padding-top:80px}
+.main-section .desc{font-size:16px}
+.nav-tabs{margin-top:50px}
+.grey-cont{height:1810px}
+.grey-cont:after{display:none}
+.bundles{padding-top:20px}
+.bundles-cont .item{width:50%;margin-top:10px;margin-bottom:10px}
+.bundles-cont .item:last-of-type{width:100%}
+.bundles:after{border-radius:0 0 50% 50% / 0 0 45px 45px}
+.faq .section-title{width:100%;padding:0!important;text-align:center!important;line-height:40px}
+.questions{width:100%}
+.react-sanfona-item-title{padding:20px}
+.faq .answer{padding:20px}
+.faq{padding-top:90px;padding-bottom:30px}
+}
