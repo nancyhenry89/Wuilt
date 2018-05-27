@@ -3,7 +3,9 @@ const webpack = require('webpack');
 module.exports = {
   entry: [
     'react-hot-loader/patch',
+    //toggle the below to build light or dark theme
     './src/dark/index.js'
+    //'./src/light/index.js'
   ],
   module: {
     rules: [

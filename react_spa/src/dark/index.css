@@ -6,7 +6,7 @@ ul.header li{float:left;margin:0 18px}
 ul.header li a{color:#d0d0d0;text-decoration:none}
 body{font-family:'Nunito',sans-serif;margin:0}
 ul.header li a.active{color:#fff;font-weight:700}
-.content{width:100%;float:left;overflow:hidden}
+.content{width:100%;float:left;overflow:hidden;background: #1d2533;}
 .header-cont{float:left;width:100%;position:fixed;background:transparent;padding-top:21px}
 .inner-cont{max-width:1154px;margin:auto;width:90%}
 .btn{width:auto;padding:15px 38px;font-size:16px;border-radius:50px;text-decoration:none}
@@ -17,23 +17,37 @@ ul.header li a.active{color:#fff;font-weight:700}
 .lang-switcher{float:left;margin-left:21px;position:relative}
 .flag{width:35px;margin-top:1px}
 .flag img{width:100%}
-footer{float:left;width:100%;padding-top:27px}
+footer{float:left;width:100%;padding-top:27px;background: #222b3a}
 footer .logo{width:63px;position:relative}
 ul.footer-links{float:right;list-style:none;padding:0;margin-top:13px}
-ul.footer-links a{color:#252c39;text-decoration:none;letter-spacing:1px;font-size:13px}
+ul.footer-links a{color:#fff;text-decoration:none;letter-spacing:1px;font-size:13px}
 ul.footer-links li{float:left;width:auto;padding:0 21px}
 .logo-slogan{width:100px;display:inline-block;font-size:8px;position:absolute;top:100%;right:-70px;color:#e1e1e1}
-.is-sticky.active .header-cont{background:#fff;box-shadow:7px 3px 11px #d8d8d8}
-.is-sticky.active .header-cont ul a{color:#909090}
+.is-sticky.active .header-cont{    background: #343e4c;
+    box-shadow: 7px 3px 11px #121821;}
+.is-sticky.active .header-cont ul a{color:#b1b1b1;}
 header .logo a:last-of-type img{display:none}
 .active .logo a:first-of-type img{display:none}
 .active .logo a:last-of-type img{display:block!important}
-.is-sticky.active ul.header li a.active{color:#1e2534}
-.active .account{color:#1e2534}
+.is-sticky.active ul.header li a.active{color:#fff;position: relative;}
+.active .account{color:#fff;position: relative;}
 .active .header-cont .btn{background:#61cbb2;color:#fff;border-color:#61cbb2}
 .lang-switcher .popup{opacity:0;background:#fff;width:140px;height:50px;border-radius:5px;text-align:center;padding-top:14px;position:absolute;top:60px;right:-53px;transition:all .5s ease}
 .lang-switcher .popup:before{bottom:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(194,225,245,0);border-bottom-color:#fff;border-width:12px;margin-left:-10px}
 .lang-switcher:hover .popup{opacity:1}
+.is-sticky.active ul.header li a.active:before,ul.header li a.active:before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: -51px;
+    background: -moz-linear-gradient(21deg,#2bd0b1 0,#0196a4 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#2bd0b1),color-stop(100%,#0196a4));
+    background: -webkit-linear-gradient(21deg,#2bd0b1,#0196a4);
+    background: -o-linear-gradient(21deg,#2bd0b1 0,#0196a4 100%);
+    background: -ms-linear-gradient(21deg,#2bd0b1 0,#0196a4 100%);
+    background: linear-gradient(69deg,#2bd0b1,#0196a4);
+}
 .mobile{display:none}
 .arabic body{direction:rtl}
 .arabic .logo,.arabic .header,.arabic ul.header li,.arabic .content,.arabic .header-cont,.arabic .account,.arabic .lang-switcher,.arabic footer,.arabic ul.footer-links li{float:right}
@@ -42,7 +56,7 @@ header .logo a:last-of-type img{display:none}
 .arabic .header-opo,.arabic ul.footer-links,arabic .logo-slogan,.arabic .lang-switcher .popup{float:left}
 .arabic .lang-switcher{margin-right:21px;margin-left:auto}
 .arabic-flag,.arabic .english-flag{display:none}
-;
+
 .english-flag,.arabic .arabic-flag{display:block}
 .arabic .arabic-flag{display:block}
 .arabic-flag{width:31px;height:31px;border-radius:50%}

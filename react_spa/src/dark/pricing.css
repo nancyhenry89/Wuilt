@@ -11,8 +11,14 @@
 .subscription{width:calc(100% / 3 - 20px);float:left;background:#fff;margin:20px 10px;border-radius:10px;overflow:hidden;color:#1C2533;padding-bottom:50px}
 .sub-types{width:75%;margin:auto}
 .subscription .head:after{content:'';border-radius:0 0 50% 50% / 0 0 18px 18px;width:110%;left:-5%;background:#fafafa;height:35px;display:block;position:absolute;bottom:-35px;z-index:9}
-.subscription.prof .head{background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(43,208,177,1)),color-stop(100%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);background:linear-gradient(69deg,rgba(43,208,177,1) 0%,rgba(1,150,164,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1);color:#fff}
-.subscription.prof .head:after{background:-moz-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-webkit-gradient(linear,left top,right top,color-stop(10%,rgba(43,208,177,1)),color-stop(110%,rgba(1,150,164,1)));background:-webkit-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-o-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:-ms-linear-gradient(21deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);background:linear-gradient(69deg,rgba(43,208,177,1) 10%,rgba(1,150,164,1) 110%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1)}
+.subscription.prof .head{    background: -moz-linear-gradient(21deg,#2bd0b1 0,#ffc568 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#ffc568),color-stop(100%,#ff8767));
+    background: -webkit-linear-gradient(21deg,#ffc568,#ff8767);
+    background: -o-linear-gradient(21deg,#ffc568 0,#ff8767 100%);
+    background: -ms-linear-gradient(21deg,#ffc568 0,#ff8767 100%);
+    background: linear-gradient(69deg,#ffc568,#ff8767);
+    color: #fff;}
+.subscription.prof .head:after{background:-moz-linear-gradient(21deg,#ffc568 10%,#ff8767 110%);background:-webkit-gradient(linear,left top,right top,color-stop(10%,#ffc568),color-stop(110%,#ff8767));background:-webkit-linear-gradient(21deg,#ffc568 10%,#ff8767 110%);background:-o-linear-gradient(21deg,r#ffc568 10%,#ff8767 110%);background:-ms-linear-gradient(21deg,#ffc568 10%,#ff8767 110%);background:linear-gradient(69deg,#ffc568 10%,#ff8767 110%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bd0b1',endColorstr='#0196a4',GradientType=1)}
 .subscription .head{background:#fafafa;position:relative;padding-top:35px}
 .subscription .title{font-size:20px}
 .subscription .price{font-size:49px;margin-bottom:2px}

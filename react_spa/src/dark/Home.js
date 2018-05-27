@@ -33,8 +33,7 @@ class Home extends Component {
                </div>
                <p><FormattedMessage id="app.threestep"/></p>
                <div className="banner-actions">
-                  <a className="btn"><FormattedMessage id="app.startNow"/></a>
-                  <a className="btn"><FormattedMessage id="app.watch"/></a>
+                  <a className="btn">Get Early Access</a>
                </div>
                </div>
                <div className="banner-img"><img src={homeImg}/></div>
@@ -44,7 +43,7 @@ class Home extends Component {
             <div className="inner-cont">
                <div className="row">
                   <h2 className="section-title">WHAT YOU GET?</h2>
-                  <div className="desc">We have more than</div>
+                 
                </div>
                <div className="row">
                   <div className="col">
