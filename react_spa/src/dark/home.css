@@ -1,9 +1,9 @@
 .main-banner{background:url(./assets/images/bg.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover;position: relative}
 h2.section-title{text-align:center;font-size:36px;color: #ffffff;margin-bottom:6px;}
-.what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px}
+.what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px;margin-top:80px}
 .desc{text-align:center}
 .what .col{width:calc(100% / 4 - 35px);float:left;margin:0 23px;text-align: left;/* background: #fff; */border-radius:5px;}
-.what{background: #1c2533;float:left;padding-top:121px;padding-bottom:170px;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;position:relative;    bottom: -45px;
+.what{background: #1c2533;float:left;padding-top:30px;padding-bottom:170px;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%;position:relative;    bottom: -45px;
     z-index: 9;
     box-shadow: 20px 15px 38px -10px rgba(0, 0, 0, 0.6);
 }
@@ -49,6 +49,41 @@ h2.section-title{text-align:center;font-size:36px;color: #ffffff;margin-bottom:6
     width: 50px;
     margin-bottom: 50px;
 }
+.video:after {
+    border-color: transparent transparent transparent #1e2533;
+    content:" ";
+    position:absolute;
+    left: 50%;
+    border-width:11px;
+    border-style:solid;
+    top: 50%;
+    margin-left: -2px;
+    margin-top: -10px;
+}
+
+.video {
+    position: relative;
+    width: 570px;
+    margin: auto;
+    margin-top: -170px;
+    cursor: pointer;
+}
+
+.video:before {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    content: '';
+    display: block;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -25px;
+    margin-left:-25px}
+    .video.playing:before,.video.playing:after{
+        display: none;
+    }
 .what .details{width:80%;/* margin:auto; */color: #ffffff;font-weight:lighter;line-height: 32px;font-size:14px;letter-spacing:1px;}
 .home-section.img-first{position:relative;float:left;width:100%;border-radius:0 0 50% 50% / 0 0 75px 75px;width:120%;left:-10%}
 .home-section.img-first:after, .home-section.img-last:after{
@@ -124,7 +159,7 @@ h2.section-title{text-align:center;font-size:36px;color: #ffffff;margin-bottom:6
 .main-banner{min-height:737px}
 .slogan{max-width:100%;font-size:30px;text-align:center;line-height:40px;margin:auto;margin-top:10px}
 .banner-actions .btn{float:left;margin-bottom:20px;text-align:center;width:100%!important}
-.what .col{width:70%;margin-left:15%!important;margin-right:0;margin-bottom:50px}
+.what .col{width:70%;margin-left:15%!important;margin-right:0;margin-bottom:50px;}
 .main-banner p{font-size:17px;text-align:center;margin-bottom:30px}
 .banner-actions{margin:auto;width:260px}
 h2.section-title{font-size:24px}

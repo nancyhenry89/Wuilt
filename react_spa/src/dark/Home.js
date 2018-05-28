@@ -14,6 +14,7 @@ import strip2 from './assets/images/strip2.png'
 import strip3 from './assets/images/strip3.png'
 import strip4 from './assets/images/strip4.png'
 import homeImg from './assets/images/home.png'
+import video from './assets/images/vid.png'
 import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
 
 import $ from 'jquery'
@@ -21,6 +22,11 @@ class Home extends Component {
   componentDidMount() {
   $('header').removeClass('pricing-header');
   $('header').removeClass('nav-opened');
+    var video = document.getElementById('video');
+      video.addEventListener('click',function(){
+      video.play();
+      $(this).parents('.video').addClass('playing');
+  },false);
  }
   render() {
     return (
@@ -39,11 +45,16 @@ class Home extends Component {
                <div className="banner-img"><img src={homeImg}/></div>
             </div>
          </div>
+            <div className="video">
+            <video  id="video" poster={video}>
+              <source src="http://mirrors.standaloneinstaller.com/video-sample/small.mp4" type="video/mp4"/>
+              <source src="test" type="video/webm"/>
+            </video>
+         </div>
          <div className='what'>
             <div className="inner-cont">
                <div className="row">
-                  <h2 className="section-title">WHAT YOU GET?</h2>
-                 
+                  <h2 className="section-title">WHAT YOU GET?</h2>       
                </div>
                <div className="row">
                   <div className="col">
