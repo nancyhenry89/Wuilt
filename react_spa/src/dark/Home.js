@@ -13,8 +13,10 @@ import strip1 from './assets/images/strip1.png'
 import strip2 from './assets/images/strip2.png'
 import strip3 from './assets/images/strip3.png'
 import strip4 from './assets/images/strip4.png'
+import strip5 from './assets/images/strip5.png'
 import homeImg from './assets/images/home.png'
-import video from './assets/images/vid.png'
+import poster from './assets/images/vid.png'
+import video from './assets/video.mp4'
 import {FormattedMessage, FormattedHTMLMessage} from 'react-intl';
 
 import $ from 'jquery'
@@ -46,8 +48,8 @@ class Home extends Component {
             </div>
          </div>
             <div className="video">
-            <video  id="video" poster={video}>
-              <source src="http://mirrors.standaloneinstaller.com/video-sample/small.mp4" type="video/mp4"/>
+            <video  id="video" poster={poster}>
+              <source src={video} type="video/mp4"/>
               <source src="test" type="video/webm"/>
             </video>
          </div>
@@ -102,8 +104,9 @@ class Home extends Component {
                   <img src={sec1}/>
                </div>
                <div className="details-cont">
-                  <div className="title">Pre-designed sections to play with</div>
+                  <div className="title">No drag and drop</div>
                   <div className="desc">Any edits to your website are automatically synthesized on desktop, tablet and mobile devices.</div>
+                  <a href="#" className="more">Learn more</a>
                </div>
                <div className="strip"><img src={strip1}/></div>
             </div>
@@ -113,6 +116,7 @@ class Home extends Component {
                <div className="details-cont">
                   <div className="title">Pre-designed sections to play with</div>
                   <div className="desc">Any edits to your website are automatically sythesized on desktop, tablet and mobile devices.</div>
+                  <a href="#" className="more">Learn more</a>
                </div>
                <div className="img-cont">
                   <img src={sec2}/>
@@ -126,8 +130,9 @@ class Home extends Component {
                   <img src={sec3}/>
                </div>
                <div className="details-cont">
-                  <div className="title">Complementary Color Palettes</div>
-                  <div className="desc">With numerous color palettes, your website is guaranteed to have unique character and vibrancy.</div>
+                  <div className="title">Color combinations</div>
+                  <div className="desc">Any edits to your website are automatically sythesized on desktop, tablet and mobile devices.</div>
+                  <a href="#" className="more">Learn more</a>
                </div>
             </div>
              <div className="strip"><img src={strip3}/></div>
@@ -137,6 +142,7 @@ class Home extends Component {
                <div className="details-cont">
                   <div className="title">Different font styles to choose from</div>
                   <div className="desc">Any edits to your website are automatically synthesized on desktop, tablet and mobile devices.</div>
+                  <a href="#" className="more">Learn more</a>
                </div>
                <div className="img-cont">
                   <img src={sec4}/>
@@ -150,9 +156,11 @@ class Home extends Component {
                   <img src={sec5}/>
                </div>
                <div className="details-cont">
-                  <div className="title">Different font styles to choose from</div>
+                  <div className="title">Analytics dashboard</div>
                   <div className="desc">Any edits to your website are automatically synthesized on desktop, tablet and mobile devices.</div>
+                  <a href="#" className="more">Learn more</a>
                </div>
+               <div className="strip"><img src={strip5}/></div>
             </div>
          </div>
          <div className="closing">

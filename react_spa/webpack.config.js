@@ -29,6 +29,17 @@ module.exports = {
       test: /\.css$/,
       include: /node_modules/,
       loaders: ['style-loader', 'css-loader'],
+    },
+    {
+      test: /\.(mov|mp4)$/,
+      use: [
+        {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          }  
+        }
+      ]
     }
     ]
   },

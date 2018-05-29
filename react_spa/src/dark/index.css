@@ -17,7 +17,8 @@ ul.header li a.active{color:#fff;font-weight:700}
 .lang-switcher{float:left;margin-left:21px;position:relative}
 .flag{width:35px;margin-top:1px}
 .flag img{width:100%}
-footer{float:left;width:100%;padding-top:27px;background: #222b3a}
+footer{float:left;width:100%;padding-top:27px;background: #222b3a;
+    padding-bottom: 27px}
 footer .logo{width:63px;position:relative}
 ul.footer-links{float:right;list-style:none;padding:0;margin-top:13px}
 ul.footer-links a{color:#fff;text-decoration:none;letter-spacing:1px;font-size:13px}
