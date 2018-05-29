@@ -206,9 +206,6 @@ a.more:after {
 .arabic .home-section .desc{text-align:right}
 .arabic .img-last .strip{left:auto}
 .arabic .closing{float:right}
-.what .details, .what .title {
-    text-align: right;
-}
 
 .arabic a.more:after {
     left: auto;
