@@ -22,8 +22,9 @@ class Pricing extends Component {
     return (
       <div id="pricing">
         <div className="main-section">
-         <h2 className="title">Plans that suits your business</h2>
-         <div className="desc">Create a website in 3 steps</div>
+        <div className="desc">Create a website in 3 steps</div>
+         <h2 className="title">Lorem Ipsum Dolor Sit Amet Consectuar</h2>
+         
          <Tabs onSelect={(index, label) => console.log(label + ' selected')}>
              <Tab label="ANNUAL">
                 <div className="sub-types">
