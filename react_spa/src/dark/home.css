@@ -71,6 +71,7 @@ h2.section-title{text-align:center;font-size:36px;color: #ffffff;margin-bottom:6
     margin: auto;
     margin-top: -191px;
     cursor: pointer;
+    max-width: 90%;
 }
 video{width:100%}
 .video:before {
@@ -196,7 +197,7 @@ a.more:after {
 .arabic .what .details,.arabic .what .title{text-align: right}
 .arabic .what .col,.arabic .what .col{float:right}
 .arabic .what{float:right;right:-10%;left:auto}
-.arabic .banner-actions .btn:last-of-type{padding-left:auto;padding-right:60px}
+.arabic .banner-actions .btn:last-of-type{padding-left:auto;padding-right:50px}
 .arabic .what .col:first-of-type{margin-right:0;margin-left:auto}
 .arabic .home-section.img-first{float:right;right:-10%;left:auto}
 .arabic .home-section.img-first:after{right:-10%;left:auto}
@@ -246,7 +247,7 @@ a.more:after {
 .arabic .sec5 .strip {
     width: 400px;
 }
-.arabic .banner-actions .btn:first-of-type{margin-left:25px;margin-right:auto;padding-left:63px;padding-right:auto}
+.arabic .banner-actions .btn:first-of-type{margin-left:25px;margin-right:auto;padding-left:50px;padding-right:auto}
 .arabic .banner-actions .btn:first-of-type:after{left:36px;right:auto;transform:rotate(-180deg)}
 .arabic .what .col:last-of-type{margin-left:0;margin-right:auto}
 .arabic .img-first .details-cont{float:left}
@@ -256,11 +257,27 @@ a.more:after {
 .arabic .img-cont{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH}
 .arabic .strip{-moz-transform:scaleX(-1);-o-transform:scaleX(-1);-webkit-transform:scaleX(-1);transform:scaleX(-1);filter:FlipH;-ms-filter:FlipH}
 @media screen and (max-width: 1024px) {
-.inner-cont{width:80%}
+.inner-cont{width:80%!important;max-width: 920px!important;}
 .banner-img{max-width:391px;top:276px}
+.home-section .img-cont {
+    max-width: 440px;
+}
+.home-section .img-cont {
+    max-width: 440px;
+    top: 200px;
+}
+
+.sec3.img-first .img-cont,.sec5.img-first .img-cont {
+    top: 150px;
+}
+
+.strip {
+    display: none;
+}
 }
 @media screen and (max-width: 768px) {
-.banner-img{top:440px;right:50%;margin-right:-150px;max-width:300px}
+    .inner-cont{width: 90%!important}
+.banner-img{top:340px;right:50%;margin-right:-150px;max-width:300px}
 .banner-actions .btn:first-of-type:after{right:56px}
 .banner-actions .btn:last-of-type:before{left:57px}
 .main-banner{min-height:737px}
@@ -276,9 +293,9 @@ h2.section-title{font-size:24px}
 .home-section.img-first:after{border-radius:0 0 50% 50% / 0 0 45px 45px;height:45px;bottom:-45px}
 .home-section.img-last{border-radius:0 0 50% 50% / 0 0 45px 45px;padding-bottom:180px!important}
 .home-section .inner-cont{display:flex;float:left;width:100%}
-.home-section .inner-cont .img-cont{left:0;width:80%;right:auto;top:auto;bottom:0;max-width:440px}
-.home-section .inner-cont .details-cont{order:1;width:70%;position:relative;padding-top:0;margin-bottom:190px;flex-shrink:0;left:15%}
-.home-section.img-last .img-cont{right:0;left:auto;bottom:50px}
+.home-section .inner-cont .img-cont{left:10%;width:80%;right:auto;top:auto;bottom:0;max-width:350px;margin-bottom: 30px}
+.home-section .inner-cont .details-cont{order:1;width:70%;position:relative;padding-top:0;margin-bottom:170px;flex-shrink:0;left:15%}
+.home-section.img-last .img-cont{right:10%;left:auto;bottom:50px}
 .home-section .title{font-size:24px;line-height:30px}
 .home-section .desc{font-size:16px;line-height:22px;width:100%}
 .home-section.img-first{padding-top:30px}
@@ -291,9 +308,67 @@ ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
 .arabic .banner-actions .btn{float:right}
 .arabic .what .col{margin-right:15%!important;margin-left:auto!important}
 .arabic .home-section .inner-cont{float:right}
-.arabic .home-section .inner-cont .img-cont{right:0;left:auto}
+.arabic .home-section .inner-cont .img-cont{right:10%;left:auto}
 .arabic .home-section .inner-cont .details-cont{right:15%;left:auto}
-.arabic .home-section.img-last .img-cont{left:0;right:auto}
+.arabic .home-section.img-last .img-cont{left:10%;right:auto}
 .arabic .banner-img{left:50%;right:auto;margin-left:-150px;margin-right:auto}
 .arabic .banner-actions .btn:first-of-type:after{left:56px;right:auto}
+
+
+.video:after {
+    margin-left: -8px;
+    margin-top: -9px;
+    border-width: 10px;
+    border-left-width: 13px;
+}
+.video {
+    margin-top: -140px;
+}
+
+.video:before {
+    width: 45px;
+    height: 45px;
+    margin-top: -22px;
+    margin-left: -26px;
+}
+.what h2.section-title{margin-bottom: 61px}
+.home-section.img-last .desc {
+    float: left;
+    text-align: left;
+}
+
+.img-last .details-cont {
+    text-align: left;
+}
+
+.home-section.img-last a.more:after {
+    right: auto;
+    left: 83px;
+}
+
+.home-section.img-last a.more {
+    margin-bottom: 20px;
+}
+.home-section.sec3 .inner-cont .details-cont,.home-section.sec5 .inner-cont .details-cont {
+    margin-bottom: 70px;
+}
+
+.closing .btn {
+    padding: 17px 59px;
+}
+
+.arabic .img-last.home-section .title, .arabic .img-last.home-section .desc {
+    text-align: -webkit-auto;
+}
+
+.arabic .img-last.home-section a.more {
+    text-align: right;
+}
+
+.arabic .img-last.home-section a.more:after {
+    left: auto;
+    right: 112px;
+    transform: rotate(180deg);
+    top: -1px;
+}
 }
