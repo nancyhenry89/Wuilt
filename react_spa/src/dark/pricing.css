@@ -39,6 +39,8 @@
     position: relative;
     padding-top: 0;
     color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
     }
 .subscription .title{font-size:20px;padding-top: 10px;margin-bottom: 0;margin-top: 0;}
 .subscription .price{font-size:49px;margin-bottom:2px}
@@ -136,19 +138,19 @@ div#pricing{min-height:1300px}
 .sub-types{width:90%}
 }
 @media screen and (max-width: 768px) {
-.subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
-.subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
-#pricing .main-section{max-height:428px}
-.subscription{width:100%;flex-shrink:0;max-width:400px;margin:20px auto!important}
-.sub-types{display:flex;flex-direction:column;width:90%}
+    .subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
+    .subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
+    #pricing .main-section{max-height:428px}
+    .subscription{width:100%;flex-shrink:0;max-width:100%;margin:20px auto!important}
+    .sub-types{width:100%}
 .subscription.prof{order:-1}
-.main-section .title{font-size:24px}
+.main-section .title{font-size:24px;line-height: 40px}
 #pricing .main-section{padding-top:80px}
-.main-section .desc{font-size:16px}
+.main-section .desc{font-size:16px;margin-top: 30px}
 .nav-tabs{margin-top:50px}
 .grey-cont{height:1810px}
 .grey-cont:after{display:none}
-.bundles{padding-top:20px}
+.bundles{padding-top:20px;background-position: center}
 .bundles-cont .item{width:50%;margin-top:10px;margin-bottom:10px}
 .bundles-cont .item:last-of-type{width:100%}
 .bundles:after{border-radius:0 0 50% 50% / 0 0 45px 45px}
@@ -157,6 +159,34 @@ div#pricing{min-height:1300px}
 .react-sanfona-item-title{padding:20px}
 .faq .answer{padding:20px}
 .faq{padding-top:90px;padding-bottom:30px}
+.react-sanfona-item-title:after{margin-right: 0}
+.react-sanfona-item-expanded .react-sanfona-item-title:after {
+    margin-top: 0;
+    transform: rotate(-46deg);
+}
+.subscription:first-of-type .head:after, .subscription:last-of-type .head:after {
+    background: #3e4955;
+    border-bottom: 5px solid #3e4955;
+}
+.subscription:first-of-type .head, .subscription:last-of-type .head {
+    background: #3e4955;
+    padding-top:20px;
+    padding-bottom: 10px
+}
+#pricing h2.section-title {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.bundles-cont {
+    margin-top: 50px;
+}
+#pricing .main-section:after{bottom: 60px;}
+.faq .inner-cont {
+    width: 100%!important;
+}
 }
 
 
