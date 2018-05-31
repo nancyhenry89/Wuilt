@@ -61,7 +61,7 @@ div#pricing{min-height:1300px}
 .arabic .subscription:first-of-type{margin-right:0;margin-left:auto}
 .arabic .subscription ul li:before{right:0;left:auto}
 .arabic .subscription ul:after{right:calc(10% - 12px);left:auto}
-.arabic .grey-cont{float:right}
+.arabic .grey-cont{float:right;height: 1810px;}
 .arabic .grey-cont:after{right:-10%;left:auto}
 .arabic .bundles{float:right;left:auto;right:-10%}
 .arabic .bundles-cont .item{float:right}
@@ -82,7 +82,7 @@ div#pricing{min-height:1300px}
 @media screen and (max-width: 768px) {
 .subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
 .subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
-#pricing .main-section{max-height:428px}
+#pricing .main-section{max-height:555px}
 .subscription{width:100%;flex-shrink:0;max-width:100%;margin:20px auto!important;border-radius: 0}
 .sub-types{width:100%}
 .subscription.prof{order:-1}
@@ -90,7 +90,7 @@ div#pricing{min-height:1300px}
 #pricing .main-section{padding-top:80px}
 .main-section .desc{font-size:16px;margin-top:30px}
 .nav-tabs{margin-top:50px}
-.grey-cont{height:1810px}
+.grey-cont{height:1730px}
 .grey-cont:after{display:none}
 .bundles{padding-top:20px;background-position:center}
 .bundles-cont .item{width:50%;margin-top:10px;margin-bottom:10px}
@@ -107,7 +107,7 @@ div#pricing{min-height:1300px}
 .subscription:first-of-type .head,.subscription:last-of-type .head{background:#3e4955;padding-top:20px;padding-bottom:10px}
 #pricing h2.section-title{width:80%;margin-left:auto;margin-right:auto;float:none}
 .bundles-cont{margin-top:50px}
-#pricing .main-section:after{bottom:60px}
+#pricing .main-section:after{bottom:190px}
 .faq .inner-cont{width:100%!important}
-.arabic .react-sanfona-item-title{border-radius: 0}
+.react-sanfona-item-title{border-radius: 0}
 }
