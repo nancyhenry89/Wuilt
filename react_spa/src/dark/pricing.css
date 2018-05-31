@@ -31,7 +31,7 @@
 .subscription ul:after{content:"";height:1px;width:calc(80% + 25px);background:#3f4956;display:block;bottom:0;position:absolute;left:calc(10% - 12px)}
 div#pricing{min-height:1300px}
 .grey-cont{background:#1e2532;width:100%;height:390px;float:left;margin-top:0;position:relative}
-.bundles{background:url(./assets/images/bg.png);background-size:cover;float:left;padding-top:70px;padding-bottom:110px;border-radius:0 0 50% 50%/0 0 75px 75px;width:120%;left:-10%;position:relative;bottom:-45px;z-index:9;box-shadow:20px 15px 38px -10px rgba(0,0,0,.6);background-position:150px 90%}
+.bundles{background:url(./assets/images/bg.png);background-size:cover;float:left;padding-top:70px;padding-bottom:70px;border-radius:0 0 50% 50%/0 0 75px 75px;width:120%;left:-10%;position:relative;bottom:-45px;z-index:9;box-shadow:20px 15px 38px -10px rgba(0,0,0,.6);background-position:150px 90%}
 .bundles-cont .item{float:left;width:calc(100% / 7)}
 .bundles .img-cont{width:50px;margin:auto;margin-bottom:0}
 .bundles .img-cont img{width:100%}
@@ -83,7 +83,7 @@ div#pricing{min-height:1300px}
 .subscription:first-of-type .head,.subscription:last-of-type .head{background:#fff}
 .subscription:first-of-type .head:after,.subscription:last-of-type .head:after{background:#fff;border-bottom:5px solid #fafafa}
 #pricing .main-section{max-height:428px}
-.subscription{width:100%;flex-shrink:0;max-width:100%;margin:20px auto!important}
+.subscription{width:100%;flex-shrink:0;max-width:100%;margin:20px auto!important;border-radius: 0}
 .sub-types{width:100%}
 .subscription.prof{order:-1}
 .main-section .title{font-size:24px;line-height:40px}
@@ -109,4 +109,5 @@ div#pricing{min-height:1300px}
 .bundles-cont{margin-top:50px}
 #pricing .main-section:after{bottom:60px}
 .faq .inner-cont{width:100%!important}
+.arabic .react-sanfona-item-title{border-radius: 0}
 }
