@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./home.css";
+import YoutubePlayer from 'react-youtube-player';
 import sec1 from './assets/images/sec1.png'
 import sec2 from './assets/images/sec2.png'
 import sec3 from './assets/images/sec3.png'
@@ -24,11 +25,7 @@ class Home extends Component {
   componentDidMount() {
   $('header').removeClass('pricing-header');
   $('header').removeClass('nav-opened');
-    var video = document.getElementById('video');
-      video.addEventListener('click',function(){
-      video.play();
-      $(this).parents('.video').addClass('playing');
-  },false);
+
  }
   render() {
     return (
@@ -47,11 +44,19 @@ class Home extends Component {
                <div className="banner-img"><img src={homeImg}/></div>
             </div>
          </div>
+         
             <div className="video">
-            <video  id="video" poster={poster}>
-              <source src={video} type="video/mp4"/>
-              <source src="test" type="video/webm"/>
-            </video>
+            
+            <YoutubePlayer
+                videoId='https://www.youtube.com/watch?time_continue=3&v=gmdvlKMrrX4'
+                playbackState='unstarted'
+                configuration={
+                    {
+                        showinfo: 0,
+                        controls: 0
+                    }
+                }
+        />
          </div>
          <div className='what'>
             <div className="inner-cont">

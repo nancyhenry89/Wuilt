@@ -43,7 +43,13 @@
     "@babel/core": "^7.0.0-beta.47",
     "@babel/preset-env": "^7.0.0-beta.47",
     "@babel/preset-react": "^7.0.0-beta.47",
+    "create-react-class": "^15.6.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-player": "^1.6.2",
+    "react-youtube": "^7.6.0",
+    "react-youtube-player": "^2.0.1",
+    "react-youtube-video": "^1.0.3",
+    "youtube-player": "^5.5.0"
   }
 }

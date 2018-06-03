@@ -17,10 +17,8 @@ h2.section-title{text-align:center;font-size:36px;color:#fff;margin-bottom:6px}
 .what .head{margin-bottom:26px}
 .what .title{font-size:18px;letter-spacing:1px;color:#fff;margin-bottom:27px}
 .what .icon{width:50px;margin-bottom:28px}
-.video:after{border-color:transparent transparent transparent #3a3d48;content:" ";position:absolute;left:50%;border-width:13px;border-style:solid;top:50%;margin-left:-9px;margin-top:-12px;border-left-width:18px}
-.video{position:relative;width:790px;margin:auto;margin-top:-191px;cursor:pointer;max-width:90%}
+.video{position:relative;width:790px;margin:auto;margin-top:-191px;cursor:pointer;max-width:90%;height: 454px}
 video{width:100%}
-.video:before{border-radius:50%;width:75px;height:75px;content:"";display:block;background:#fff;position:absolute;left:50%;top:50%;margin-top:-37px;margin-left:-39px}
 .video.playing:before,.video.playing:after{display:none}
 .what .details{width:80%;color:#fff;font-weight:lighter;line-height:32px;font-size:14px;letter-spacing:1px}
 .home-section.img-first{background:url(./assets/images/bg.png);background-size:cover;float:left;padding-top:110px;padding-bottom:252px;border-radius:0 0 50% 50%/0 0 75px 75px;width:120%;left:-10%;position:relative;bottom:-45px;z-index:9;box-shadow:20px 15px 38px -10px rgba(0,0,0,.6)}
