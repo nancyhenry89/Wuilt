@@ -48,12 +48,12 @@ class Home extends Component {
             <div className="video">
             
             <YoutubePlayer
-                videoId='https://www.youtube.com/watch?time_continue=3&v=gmdvlKMrrX4'
+                videoId='gmdvlKMrrX4'
                 playbackState='unstarted'
                 configuration={
                     {
                         showinfo: 0,
-                        controls: 0
+                        controls: 1
                     }
                 }
         />
