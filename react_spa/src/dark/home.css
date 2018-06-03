@@ -147,4 +147,5 @@ ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
 .arabic .img-last.home-section .title,.arabic .img-last.home-section .desc{text-align:-webkit-auto}
 .arabic .img-last.home-section a.more{text-align:right}
 .arabic .img-last.home-section a.more:after{left:auto;right:112px;transform:rotate(180deg);top:-1px}
+.video{height:240px}
 }
