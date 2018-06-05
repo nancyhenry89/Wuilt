@@ -58,6 +58,7 @@ class Home extends Component {
                 }
         />
          </div>
+         <div class="cont">
          <div className='what'>
             <div className="inner-cont">
                <div className="row">
@@ -103,6 +104,8 @@ class Home extends Component {
                </div>
             </div>
          </div>
+         </div>
+         <div class="cont">
          <div className="sec1 home-section img-first">
             <div className="inner-cont">
                <div className="img-cont">
@@ -167,6 +170,7 @@ class Home extends Component {
                </div>
                <div className="strip"><img src={strip5}/></div>
             </div>
+         </div>
          </div>
          <div className="closing">
           <h2 className="title">Build your website now! In only 3 Steps.</h2>
