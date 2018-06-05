@@ -9,7 +9,7 @@
 .nav-tabs li:last-of-type a{border-top-right-radius:50px;border-bottom-right-radius:50px}
 .tab-content{width:100%;float:left;margin-top:80px;position:relative;z-index:2}
 .subscription{width:calc(100% / 3 - 27px);float:left;color:#fff;margin:20px 40px;border-radius:0;overflow:hidden;background:#373f4d;padding-bottom:70px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;box-shadow:0 11px 74px -21px hsla(0,0%,5%,.75)}
-.sub-types{width:80%;margin:auto}
+.sub-types{width:80%;margin:auto;max-width: 1200px}
 .subscription .head:after{content:'';border-radius:0 0 50% 50% / 0 0 18px 18px;width:110%;left:-5%;background:#3e4955;height:35px;display:block;position:absolute;bottom:-35px;z-index:9}
 .subscription.prof .head{background:-moz-linear-gradient(21deg,#2bd0b1 0,#ffc568 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,#ffc568),color-stop(100%,#ff8767));background:-webkit-linear-gradient(21deg,#ffc568,#ff8767);background:-o-linear-gradient(21deg,#ffc568 0,#ff8767 100%);background:-ms-linear-gradient(21deg,#ffc568 0,#ff8767 100%);background:linear-gradient(69deg,#ffc568,#ff8767);color:#fff}
 #pricing .main-section:after{content:"";height:6px;width:100%;position:absolute;bottom:0;background:-moz-linear-gradient(21deg,#2bd0b1 0,#0196a4 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0,#87207f),color-stop(100%,#fb9230));background:-webkit-linear-gradient(21deg,#87207f,#fb9230);background:-o-linear-gradient(21deg,#87207f 0,#fb9230 100%);background:-ms-linear-gradient(21deg,#87207f 0,#fb9230 100%);background:linear-gradient(69deg,#87207f,#fb9230);left:0;z-index:1}
