@@ -1,7 +1,7 @@
 .main-banner{background:url(./assets/images/pattern.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover;max-width: 1440px;
 margin: auto;position: relative}
 h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6px}
-.cont{max-width: 1800px;margin: auto}
+.cont{max-width: 1440px;margin: auto}
 .what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px}
 .desc{text-align:center}
 .what .col{width:calc(100% / 4 - 35px);float:left;margin:0 23px;text-align:center;background:#fff;border-radius:5px}
