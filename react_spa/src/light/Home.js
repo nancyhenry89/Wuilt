@@ -86,6 +86,7 @@ class Home extends Component {
                </div>
             </div>
          </div>
+         <div class="cont">
          <div className="sec1 home-section img-first">
             <div className="inner-cont">
                <div className="img-cont">
@@ -144,6 +145,7 @@ class Home extends Component {
                   <div className="desc">Any edits to your website are automatically synthesized on desktop, tablet and mobile devices.</div>
                </div>
             </div>
+         </div>
          </div>
          <div className="closing">
           <h2 className="title">Build your website now! In only 3 Steps.</h2>

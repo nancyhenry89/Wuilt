@@ -1,5 +1,6 @@
 .main-banner{background:url(./assets/images/pattern.png);color:#fff;padding-top:100px;min-height:850px;background-size:cover}
 h2.section-title{text-align:center;font-size:36px;color:#1d2534;margin-bottom:6px}
+.cont{max-width: 1800px;margin: auto}
 .what .col{width:calc(100% / 4 - 40px);float:left;margin:0 20px;text-align:center;padding-bottom:29px}
 .desc{text-align:center}
 .what .col{width:calc(100% / 4 - 35px);float:left;margin:0 23px;text-align:center;background:#fff;border-radius:5px}
@@ -110,4 +111,25 @@ ul.footer-links li{width:100%!important;text-align:center;margin:10px 0}
 .arabic .home-section.img-last .img-cont{left:0;right:auto}
 .arabic .banner-img{left:50%;right:auto;margin-left:-150px;margin-right:auto}
 .arabic .banner-actions .btn:first-of-type:after{left:56px;right:auto}
+}
+
+
+
+
+@media screen and (min-width: 1780px) {
+.img-last .strip {
+    left: 0;
+}
+
+.img-first .strip {
+    right: 0;
+}
+
+.img-last .img-cont {
+    right: 0;
+}
+
+.img-first .img-cont {
+    left: 0;
+}
 }
